@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Hora de Aventura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/src/img/Adventure-time-background-paintings-1.webp" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Tablet e Celular-->
+    <div id="lugarDaPagina">
+        <ul class="paginasMenores" id="idDaPag">
+            <li class="listasPaginasMenoresTitulo" id="idPagPag" onclick="abrirEFecharPagina()">Página</li>
+            <ul id="primeiraLista">
+                <li class="listasPaginasMenores" id="idPagin"><a href="/Página Principal/index.html">Home</a></li>
+                <li class="listasPaginasMenores" id="idPersonagens"><a
+                        href="/Personagens/personagens.html">Personagens</a></li>
+                <li class="listasPaginasMenores" id="idRPG"><a href="/RPG/rpg.html">RPG</a></li>
+                <li class="listasPaginasMenores" id="idObjetos"><a href="/Objetos/objetos.html">Objetos</a></li>
+                <li class="listasPaginasMenores" id="idEpisodios"><a href="/Episódios/episodios.html">Episódios</a></li>
+            </ul>
+        </ul>
+        <ul class="paginasMenores">
+            <li class="listasPaginasMenoresTitulo" id="idlinksOfi" onclick="abrirEFecharLinksOficiais()">Links Oficiais
+            </li>
+            <ul id="segundaLista">
+                <li class="listasPaginasMenores" id="idSiteOficial"><a
+                        href="https://www.cartoonnetwork.com.br/show/hora-de-aventura" target="_blank">Site
+                        oficial</a>
+                </li>
+                <li class="listasPaginasMenores" id="idMercadoriaOficial"><a
+                        href="https://www.cnshop.com.br/colecoes/hora-de-aventura" target="_blank"
+                        rel="noopener noreferrer">Mercadoria oficial</a></li>
+                <li class="listasPaginasMenores" id="idReddit"><a href="https://www.reddit.com/r/adventuretime/"
+                        target="_blank">Reddit</a></li>
+                <li class="listasPaginasMenores" id="idFrederatorStudios"><a href="https://frederator.com/"
+                        target="_blank">Frederator
+                        Studios</a>
+                </li>
+            </ul>
+        </ul>
+        <ul class="paginasMenores" id="paginasOutrasLi">
+            <li class="listasPaginasMenoresTitulo" id="idOutrasLi" onclick="abrirEFecharOutraslínguas()">Outras línguas
+            </li>
+            <ul id="terceiraLista">
+                <li class="listasPaginasMenores" id="idEnglish">English</li>
+                <li class="listasPaginasMenores" id="idPortugues">Português</li>
+            </ul>
+        </ul>
+        <img src="/src/img/espada raiz.png" id="espadaDeLado" alt="Espada Finn">
+    </div>
+    <!-- Tablet e Celular -->
+
+
+    <!-- PC e Notebook --> <div class="barraEspada">
+
+        <img src="/src/img/espada raiz.png" alt="Finn_Sword_vertical" id="goldensword">
+        <div id="todaEssaMerda">
+            <div id="logoEWiki">
+                <img src="/src/img/logo hora de aventura - Copia.png" alt="logo hora de aventura"
+                    class="logoHoraDeAventura" width="25%">
+                <img src="/src/img/wiki.png" alt="wiki" id="wiki">
+            </div>
+            <div id="localDoTextoDaSelecao">
+                <div class="localParteSelecao">
+
+                </div>
+
+                <div class="textoParteSelecao">
+                    <ul>
+                        <li class="tituloSelecao" id="nomePaginaPrin">Página principal</li>
+                <hr>
+                <li><a href="/Personagens/personagens.html" id="nomePersonagens">Personagens</a></li>
+                        <li><a href="/RPG/rpg.html" id="rpgTitulo">RPG</a></li>
+                        <li><a href="/Objetos/objetos.html" id="nomeObjetos">Objetos</a></li>
+                <li><a href="/Episódios/episodios.html" id="nomeEpisodios">Episódios</a></li>
+
+                    </ul>
+                    <ul>
+                        <li class="tituloSelecao">Links Oficiais</li>
+                        <hr>
+                        <li><a href="https://www.cartoonnetwork.com.br/show/hora-de-aventura" target="_blank">Site
+                                oficial</a>
+                        </li>
+                        <li><a href="https://www.cnshop.com.br/colecoes/hora-de-aventura" target="_blank"
+                                rel="noopener noreferrer">Mercadoria oficial</a></li>
+                        <li><a href="https://www.reddit.com/r/adventuretime/" target="_blank">Reddit</a></li>
+                        <li><a href="https://frederator.com/" target="_blank">Frederator Studios</a></li>
+                    </ul>
+                    <ul>
+                        <li class="tituloSelecao" id="outrasLinguas">Outras línguas</li>
+                <hr>
+                <li onclick="english()"><a href="#corpo" id="englishPf">English</a></li>
+                <li onclick="portugues()"><a href="#corpo" class="linguasDif" id="portuguesPf">Português</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="principalWiki" id="principalWiki" onclick="fecharTudo()">
+        <div class="parteWiki">
+            <div id="osDaEsquerda">
+                <div class="partePrincipalWikiCima" id="partePrincipalWikiCima">
+                    <div class="imageWikiCima">
+                        <img src="/src/img/caracol.webp" id="imageCaracol" alt="caracol">
+                        <img src="/src/img/logo hora de aventura.png" id="logoHoraDeAventura"
+                            alt="logo hora de aventura">
+                    </div>
+                    <h1 class="tituloDaPagina">RPG</h1>
+                    <div class="imageDoLivro">
+
+                        <img src="/src/img/livro de rpg.png" id="livroDeRpg" alt="livro de rpg">
+                    </div>
+                    <p class="textoDotituloDaPagina">"Hora de Aventura: O RPG" é um jogo de interpretação de papéis
+                        (RPG)
+                        baseado na popular série de desenhos animados "Hora de Aventura". Desenvolvido por fãs e
+                        adaptado
+                        para ser jogado em mesas, o RPG mergulha os participantes no colorido e mágico mundo de Ooo,
+                        onde
+                        heróis improváveis vivem incríveis aventuras.
+                    </p>
+
+                </div>
+
+                <h2 class="subTituloWiki">Sistema de Jogo</h2>
+                <p class="textoWiki">O sistema de jogo é projetado para ser amigável aos jogadores iniciantes, mas
+                    também oferece profundidade suficiente para satisfazer jogadores mais experientes. Geralmente, são
+                    utilizados dados de seis lados (d6) para resolver ações, e as características dos personagens são
+                    representadas por estatísticas como Força, Destreza, Inteligência e Carisma.</p>
+
+                <h2 class="subTituloWiki">Cenário</h2>
+                <p class="textoWiki">O cenário do RPG reflete o mundo pós-apocalíptico de Ooo, habitado por personagens
+                    como Finn, o Humano, Jake, o Cão, Princesa Jujuba, Marceline, Rei Gelado e muitos outros. O Mestre
+                    do Jogo (GM) cria narrativas e desafios para os jogadores explorarem, incorporando elementos
+                    característicos da série, como a Terra do Caroço, a Terra Doce, a Terra do Fogo e o Reino Gelado.
+                </p>
+
+                <h2 class="subTituloWiki">Criação de personagem</h2>
+                <hr class="linhaSubTituloWiki">
+
+
+                <h3 class="subTituloDoSubTituloWiki">Raças</h3>
+                <p class="subTextoWiki">Os jogadores têm a opção de escolher entre diversas raças que povoam o
+                    intrigante mundo de Ooo. Desde humanos adaptáveis e versáteis, a criaturas mágicas como elfos e
+                    unicórnios, até vampiros com habilidades sobrenaturais e cães antropomórficos dotados de
+                    metamorfose, as escolhas de raça influenciam as características e habilidades únicas de cada
+                    personagem. Robôs e seres artificiais também fazem parte das opções, oferecendo resistência física
+                    aprimorada e habilidades tecnológicas avançadas. Cada raça traz consigo uma narrativa distinta e
+                    contribui para a diversidade de experiências que os jogadores podem explorar ao embarcar em suas
+                    próprias aventuras em Ooo.</p>
+
+                <h3 class="subTituloDoSubTituloWiki">Classes</h3>
+                <p class="subTextoWiki">As classes em "Hora de Aventura: O RPG" oferecem aos jogadores oportunidades
+                    distintas de moldar seus personagens e desempenhar papéis específicos dentro do universo encantador
+                    de Ooo. Desde os corajosos Aventureiros Espada de Grama, habilidosos na arte da luta corpo a corpo,
+                    até os Bruxos da Magia Doce, mestres em lançar feitiços doces e poderosos, as opções são diversas.
+                    Os Exploradores da Terra das Sombras lidam com os mistérios sobrenaturais, enquanto os Engenheiros
+                    Tecnológicos criam invenções avançadas. Os Bardos Musicais de Ooo utilizam a música como arma,
+                    inspirando aliados e desorientando inimigos. Cada classe apresenta habilidades únicas, permitindo
+                    que os jogadores personalizem suas jornadas, contribuindo para a riqueza e diversidade de histórias
+                    que podem ser vivenciadas no emocionante mundo de Hora de Aventura.
+                </p>
+
+                <h2 class="subTituloWiki">Poderes</h2>
+                <hr class="linhaSubTituloWiki">
+
+
+                <h3 class="subTituloDoSubTituloWiki">Magia</h3>
+                <p class="subTextoWiki">A magia desempenha um papel crucial, oferecendo aos jogadores uma variedade de
+                    poderes mágicos inspirados no mundo encantador de Ooo. A Magia de Gelo permite controlar o gelo, a
+                    Magia Doce envolve a manipulação de doces encantados, a Magia Elemental concede o controle sobre os
+                    elementos naturais, e a Magia das Sombras permite a manipulação de sombras para vários propósitos.
+                    Cada tipo de magia proporciona aos personagens habilidades únicas e estratégias mágicas para
+                    enfrentar os desafios e mistérios que permeiam o universo extraordinário de Hora de Aventura.</p>
+
+                <h3 class="subTituloDoSubTituloWiki">Habilidades</h3>
+                <p class="subTextoWiki">As habilidades são as aptidões distintas que os personagens podem desenvolver
+                    para moldar suas jornadas no mágico mundo de Ooo. Desde a versatilidade de Transformação de Jake,
+                    inspirada no Cão Jake, até a habilidade de Manipulação de Doce, associada à Princesa Jujuba, que
+                    permite criar doces encantados, cada habilidade oferece uma dimensão única ao personagem. Proezas
+                    Musicais capacitam os Bardos Musicais de Ooo a usar a música como arma, enquanto Mestre da
+                    Tecnologia concede a capacidade de criar dispositivos tecnológicos avançados. Estas habilidades
+                    proporcionam aos jogadores uma ampla gama de opções estratégicas para enfrentar desafios,
+                    contribuindo para a diversidade e personalização das histórias vivenciadas neste cativante RPG.
+                </p>
+
+
+
+                <div class="parteDeContribuir">
+                    <img src="/src/img/litch vs finn.jpg" id="litchVsFinn" alt="litch vs finn">
+                    <div>
+                        <h2 class="tituloContribuir">Aventuras e Missões</h2>
+                        <p class="textContribuir">O Mestre do Jogo guia os jogadores através de aventuras emocionantes,
+                            que podem incluir salvar a Princesa Jujuba de uma ameaça iminente, explorar masmorras
+                            misteriosas ou ajudar personagens icônicos a resolverem seus problemas. Missões podem variar
+                            desde tarefas simples até desafios épicos para salvar todo o reino.
+                        </p>
+
+                        <h2 class="tituloContribuir">Arte e Estilo</h2>
+                        <p class="textContribuir">O RPG de Hora de Aventura geralmente incorpora o estilo único e
+                            colorido de arte da série animada. Os materiais do jogo, como folhas de personagens, dados e
+                            mapas, frequentemente apresentam ilustrações vibrantes dos personagens e locais famosos de
+                            Ooo.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+            </div>
+            <div class="partePrincipalWiki">
+
+            </div>
+            <div class="ladoWiki">
+                <div class="barraDePesquisa">
+                    <img src="/src/img/Billy.webp" class="imagemBarraDePesquisa" alt="Billy">
+                    <a href="/Pesquisa/index (1).html" id="linkDaPesquisa"><input placeholder="Pesquisar"
+                            class="pesquisa" id="pesquisadinha" type="search"></a>
+                </div>
+                <div class="personagensPrincipaisDoLado" id="personagensLado">
+                    <h2 class="tituloDoLado" id="personagensPrinc">Personagens Principais</h2>
+
+                </div>
+                <img src="/src/img/fionna.png" id="fionna" alt="fionna">
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

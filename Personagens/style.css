@@ -1,0 +1,2081 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    cursor: url(/src/img/espadaDeGramap.png), default;
+}
+
+body{
+    background: url(/src/img/finn-the-human-jake-el-perro-hora-de-aventura-adventure-time-wallpaper-preview.jpg) fixed  no-repeat;
+    position: absolute;
+    background-size: cover;
+}
+
+#lugarDaPagina{
+    display: none;
+}
+.barraEspada {
+
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 19.65%;
+}
+
+#goldensword {
+    position: absolute;
+    height: 95%;
+    top: 3%;
+    z-index: -1;
+}
+
+#todaEssaMerda {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logoEWiki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logoHoraDeAventura {
+
+    width: 100%;
+
+}
+
+#wiki {
+
+    width: 38%;
+
+}
+
+#localDoTextoDaSelecao {
+    width: 68%;
+    height: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.localParteSelecao {
+    opacity: 0.5;
+    height: inherit;
+    width: inherit;
+    background: #D9D9D9;
+    border: solid 3px black;
+    position: absolute;
+    z-index: -1;
+}
+
+.textoParteSelecao {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95%;
+}
+
+a {
+    text-decoration: none;
+    color: #010101;
+    cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    height: 0.4%;
+    border: none;
+    margin-bottom: 1%;
+}
+
+li {
+    margin-left: 5%;
+    list-style-type: none;
+    font-size: 20px;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+a:hover {
+    color: white;
+}
+
+.tituloSelecao {
+    color: black;
+    margin-left: 0;
+    font-weight: 800;
+}
+.linkParaAsPaginas {
+    color: #65C77B;
+}
+
+#personagensTitulo{
+    color: white;
+
+    cursor: url(/src/img/espadaDeGramap.png), default;
+}
+
+
+.principalWiki{
+    display: block flex;
+    margin: 2% 0% 2% 19%;
+    width: 80%;
+}
+
+.parteWiki{
+    display: flex;
+    width: 100%;
+}
+
+.partePrincipalWiki{
+    
+    background-color: #1B2B3A;
+    width: 80%;
+    height: 97%;
+    position: absolute;
+    opacity: 0.9;
+    z-index: -1;
+}
+#osDaEsquerda{
+    width: 85%;
+}
+
+.partePrincipalWikiCima{
+    opacity: 1;
+    /* position: absolute; */
+    /* width: 85%; */
+    /* height: 13.6%; */
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: #005843;
+    padding-bottom: 1%;
+}
+
+.imageWikiCima{
+   
+    margin-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 60%;
+}
+
+#imageFinnEJake{
+    width: 31%;
+    
+    
+}
+
+#logoHoraDeAventura{
+    width: 67%;
+    margin-left: 13%;
+}
+
+.tituloDaPagina{
+    margin-left: 3%;
+    font-size: 40px;
+    color: #ffffff;
+    
+}
+
+.letraParaPesquisa{
+    color: #65C77B;
+    font-weight: 800;
+    
+    margin-top: 2.5%;
+    width: 100%;
+    text-align: center;
+}
+
+.letra{
+    font-weight: 700;
+    color: #D9D9D9;
+    margin-top: 1%;
+    margin-left: 3%;
+    font-size: 25px;
+    
+}
+
+
+
+.objetosPorLetra{
+    display: flex;
+    flex-direction: column;
+}
+ 
+
+.linhaDesObjetos{
+    display: flex;
+    width: 100%;
+    
+
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    color: #000000;
+}
+
+.objetos{
+    font-size: 16px;
+    color: #65C77B;
+    background-color: #005843;
+    margin-left: 3%;
+    margin-right: 2%;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    text-align: justify;
+    font-weight: 600;
+}
+
+.imageDosObjetos{
+    width: 100%;
+    padding: 36% 0%;
+    height: 90%;
+    background-color: #D9D9D9;
+}
+
+.nomeDoObjetos{
+    text-align: center;
+}
+
+.parteDeBaixo{
+        /* position: absolute; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* top: 91.8%; */
+        font-size: 28px;
+        font-weight: 700;
+        z-index: 1;
+        /* width: 84.09%; */
+        /* height: 7%; */
+        padding: 3%;
+        background-color: #005843;
+}
+
+.letrasDaParteDeBaixo{
+    margin-right: 1%;
+    color: #65C77B;
+}
+
+.ladoWiki{
+    background-color: #005843;
+    width: 15%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barraDePesquisa {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagemBarraDePesquisa {
+    width: 90%;
+}
+
+#linkDaPesquisa{
+    position: absolute;
+    width: 11%;
+    margin-top: 2.5%;
+    height: 1.4%;
+    
+}
+
+.pesquisa {
+    position: absolute;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    padding-left: 8%;
+    background-color: black;
+    border: #1C1D1F solid 1px;
+    color: #FFD686;
+    display: flex;
+    justify-content: center;
+    /* padding-right: 8%;*/
+    
+}
+
+.pesquisa::placeholder{
+    text-align: center;
+    color: #FFD686;
+}
+
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+.imageDoladoNoTopo{
+    margin-top: 6%;
+    width: 80%;
+    z-index: 1;
+}
+
+.personagensPrincipaisDoLado{
+    width: 100%;
+    margin-top: 40%;
+    padding-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tituloDoLado{
+    color: #65C77B;
+    font-size: 18px;
+    font-weight: 800;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.locaisDosPersonagens{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+    margin-top: 6%;
+    font-weight: 600;
+    cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+    padding-bottom: 1.3%;
+}
+
+#localDoPersonagemFinn{
+    color: #ffffff;
+    background-color: #0E6CBA;
+    padding-bottom: 0.1%;
+}
+
+#localDoPersonagemJake{
+    color: #FFB826;
+    background-color: black;
+}
+
+#localDoPersonagemJujuba{
+    color: #F4B1CE;
+    background-color: #82428C;
+}
+
+#localDoPersonagemGunter{
+    background-color: #F9E212;
+    height: 16%;
+}
+
+#localDoPersonagemReiGelado{
+    height: 15%;
+    padding-bottom: 2%;
+    background-color: #4CC4E4;
+    color: #0841CE;
+}
+
+.imageDosPersonagensDoLado {
+    width: 100%;
+    height: 88%;
+    cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+}
+
+#finnJakeBmo{
+    width: 100%;
+    
+}
+
+/*
+@media (max-Width: 1700px){
+    .ladoWiki{
+        z-index: 2;
+    }
+
+    .tituloDoLado{
+        text-align: center;
+    }
+
+    .locaisDosPersonagens{
+        
+        padding-bottom: 1.4%;
+    }
+
+    #localDoPersonagemGunter{
+        padding-bottom: 4%;
+    }
+    #localDoPersonagemReiGelado{
+        padding-bottom: 4%;
+    }
+
+
+}
+
+@media (max-width: 1595px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1238px;
+        height: 1830px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 13.8%;
+    }
+
+    .letraParaPesquisa{
+        margin-top: 1.8%;
+        font-size: 22px;
+    }
+
+    .objetosPorLetra {
+        top: 13.8%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 16px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 14px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 14px;
+        padding-left: 9%;
+    }
+
+    .tituloDaPagina {
+        font-size: 32px;
+    }
+
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+
+    .locaisDosPersonagens{
+        font-size: 20px;
+        padding-bottom: 1.4%;
+    }
+
+    .parteDeContribuir{
+        margin-top: 2%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 1555px){
+    
+
+ 
+
+    
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+
+    .locaisDosPersonagens{
+        font-size: 20px;
+        padding-bottom: 1.4%;
+    }
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 1515px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1178px;
+        height: 1780px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 13.8%;
+    }
+
+    .letraParaPesquisa{
+        margin-top: 1.8%;
+        font-size: 22px;
+    }
+
+    .objetosPorLetra {
+        top: 13.8%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 14px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+
+    .tituloDaPagina {
+        font-size: 32px;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+
+    .locaisDosPersonagens{
+        font-size: 20px;
+        padding-bottom: 1.4%;
+    }
+
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 1475px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1144px;
+        height: 1780px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 13.8%;
+    }
+
+    .letraParaPesquisa{
+        margin-top: 1.8%;
+        font-size: 22px;
+    }
+
+    .objetosPorLetra {
+        top: 13.8%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 14px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+
+    .tituloDaPagina {
+        font-size: 32px;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 1435px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1114px;
+        height: 1670px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 13.8%;
+    }
+
+    .letraParaPesquisa{
+        margin-top: 1.8%;
+        font-size: 20px;
+    }
+
+    .objetosPorLetra {
+        top: 13.4%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 14px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+
+    .tituloDaPagina {
+        font-size: 30px;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 1395px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1082px;
+        height: 1609px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 13.8%;
+    }
+
+    .letraParaPesquisa{
+        margin-top: 1.8%;
+        font-size: 20px;
+    }
+
+    .objetosPorLetra {
+        top: 13.4%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 13px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+
+    .tituloDaPagina {
+        font-size: 30px;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 60%;
+    }
+}
+*/
+@media (max-width: 1355px){
+    
+
+    
+    .letraParaPesquisa{
+        margin-top: 1.8%;
+        font-size: 20px;
+    }
+
+    
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 11px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+
+    .tituloDoLado{
+        font-size: 18px; 
+       
+    }
+
+    .tituloDaPagina {
+        font-size: 30px;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 15px;
+       
+    }
+
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 66%;
+    }
+}
+/*
+
+@media (max-width: 1325px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1018px;
+        height: 1569px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 13.8%;
+    }
+
+    .letraParaPesquisa{
+        margin-top: 1.8%;
+        font-size: 20px;
+    }
+
+    .objetosPorLetra {
+        top: 13.4%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 11px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+
+    .tituloDaPagina {
+        font-size: 30px;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 68%;
+    }
+}
+
+@media (max-width: 1285px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 988px;
+        height: 1529px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 13.8%;
+    }
+
+    .letraParaPesquisa{
+        margin-top: 1.8%;
+        font-size: 20px;
+    }
+
+    .objetosPorLetra {
+        top: 13.4%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 11px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+
+    .tituloDaPagina {
+        font-size: 30px;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 68%;
+    }
+}
+
+@media (max-width: 1245px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 958px;
+        height: 1509px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 14.5%;
+    }
+
+    .letraParaPesquisa{
+        font-size: 20px;
+    }
+
+    .objetosPorLetra {
+        top: 14%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 11px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+    
+    .tituloDaPagina {
+        font-size: 30px;
+    }
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 68%;
+    }
+}
+
+
+@media (max-width: 1208px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 928px;
+        height: 1509px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 14.5%;
+    }
+
+    .letraParaPesquisa{
+        font-size: 18px;
+    }
+
+    .objetosPorLetra {
+        top: 14%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 11px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 67%;
+    }
+}
+
+@media (max-width: 1170px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 908px;
+        height: 1479px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 14.5%;
+    }
+
+    .letraParaPesquisa{
+        font-size: 18px;
+    }
+
+    .objetosPorLetra {
+        top: 14%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 11px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 70%;
+    }
+}
+
+@media(max-width: 1140px){
+   
+
+    .principalWiki{
+        margin-left: 26%;
+        width: 863px;
+        height: 1389px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 13%;
+    }
+
+    .letraParaPesquisa{
+        margin-top: 1.2%;
+        font-size: 18px;
+    }
+
+    .objetosPorLetra {
+        top: 13%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 11px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+
+    .localParteSelecao {
+        height: 50%;
+        width: 60%;
+    }
+
+    .textoParteSelecao {
+        width: 75%;
+        height: 55%;
+    }
+
+    li {
+        font-size: 13.5px;
+    }
+
+    .tituloDaPagina {
+        font-size: 28px;
+    }
+
+    .textoDotituloDaPagina{
+        font-size: 14px;
+        width: 93%;
+    }
+
+    .subTituloWiki{
+        font-size: 20px;
+        
+    }
+    .linhaSubTituloWiki{
+        width: 93%;
+    }
+    .textoWiki{
+        font-size: 14px;
+        width: 93%;
+    }
+
+    .subTituloDoSubTituloWiki{
+        font-size: 16px;
+    }
+
+    .subTextoWiki{
+        font-size: 13px;
+        width: 91%;
+    }
+
+    .parteDoConteudo {
+        height: 48%;
+    }
+
+    .textoDaParteDoConteudo{
+        font-size: 18px;
+    }
+
+    .tituloContribuir{
+        font-size: 20px;
+    }
+
+    .textContribuir{
+        font-size: 14px;
+        width: 93.5%;
+    }
+
+    .ladoWiki{
+        width: 22%;
+        z-index: 1;
+    }
+
+    .pesquisa{
+        font-size: 13px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 13px;
+    }
+
+    .tituloDoLado{
+        font-size: 19px;
+    }
+
+    .locaisDosPersonagens{
+        font-size: 14px;
+        padding-bottom: 1.4%;
+    }
+
+    #localDoPersonagemGunter{
+        padding-bottom: 4%;
+    }
+    #localDoPersonagemReiGelado{
+        padding-bottom: 4%;
+    }
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 68%;
+    }
+}
+
+@media(max-width: 1107px){
+    
+
+    .principalWiki{
+        margin-left: 28%;
+        width: 830px;
+        height: 1389px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 14%;
+    }
+
+    .letraParaPesquisa{
+        font-size: 18px;
+    }
+
+    .objetosPorLetra {
+        top: 14%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 11px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+    .localParteSelecao {
+        height: 50%;
+        width: 60%;
+    }
+
+    .textoParteSelecao {
+        width: 75%;
+        height: 55%;
+    }
+
+    li {
+        font-size: 13.5px;
+    }
+
+    .tituloDaPagina {
+        font-size: 28px;
+    }
+
+    .textoDotituloDaPagina{
+        font-size: 14px;
+        width: 93%;
+    }
+
+    .subTituloWiki{
+        font-size: 20px;
+        
+    }
+    .linhaSubTituloWiki{
+        width: 93%;
+    }
+    .textoWiki{
+        font-size: 14px;
+        width: 93%;
+    }
+
+    .subTituloDoSubTituloWiki{
+        font-size: 16px;
+    }
+
+    .subTextoWiki{
+        font-size: 13px;
+        width: 91%;
+    }
+
+    .parteDoConteudo {
+        height: 48%;
+    }
+
+    .textoDaParteDoConteudo{
+        font-size: 18px;
+    }
+
+    .tituloContribuir{
+        font-size: 20px;
+    }
+
+    .textContribuir{
+        font-size: 14px;
+        width: 93.5%;
+    }
+
+    .ladoWiki{
+        width: 22%;
+        z-index: 1;
+    }
+
+    .pesquisa{
+        font-size: 13px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 13px;
+    }
+
+    .tituloDoLado{
+        font-size: 19px;
+    }
+
+    .locaisDosPersonagens{
+        font-size: 14px;
+        padding-bottom: 1.4%;
+    }
+
+    #localDoPersonagemGunter{
+        padding-bottom: 4%;
+    }
+    #localDoPersonagemReiGelado{
+        padding-bottom: 4%;
+    }
+
+    .parteDeContribuir{
+        margin-top: 2.5%;
+        height: 63%;
+    }
+}
+
+@media(max-width: 1080px){
+    .principalWiki{
+        margin-left: 28%;
+        width: 810px;
+        height: 1389px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 14%;
+    }
+
+    .letraParaPesquisa{
+        font-size: 18px;
+    }
+
+    .objetosPorLetra {
+        top: 14%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 11px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 70%;
+    }
+}
+
+@media(max-width: 1060px){
+    .principalWiki{
+        margin-left: 28%;
+        width: 800px;
+        height: 1389px;
+    }
+
+    .partePrincipalWikiCima {
+        height: 14%;
+    }
+
+    .letraParaPesquisa{
+        font-size: 18px;
+    }
+
+    .objetosPorLetra {
+        top: 14%;
+    }
+
+    .letra{
+        font-size: 21px;
+    }
+
+    .objetos {
+        font-size: 11px;
+    }
+
+    .linhaDesObjetos {
+        height: 36%;
+    }
+
+    .parteDeBaixo{
+        font-size: 22px;
+        top: 91.9%;
+    }
+
+    .pesquisa{
+        font-size: 12px;
+    }
+
+    .pesquisa::placeholder{
+        text-align: center;
+        color: #FFD686;
+        font-size: 12px;
+        padding-left: 9%;
+    }
+    
+
+    .parteDeContribuir{
+        margin-top: 3%;
+        height: 70%;
+    }
+}
+*/
+@media (max-width: 1043px){
+    
+.tituloDoLado{
+    font-size: 14px;
+}
+
+.letraParaPesquisa{
+    font-size: 16px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+ 
+}
+
+@media (max-width: 770px){
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .barraEspada {
+        display: none;
+    }
+
+    #lugarDaPagina {
+        margin-top: 0.5%;
+        display: flex;
+        width: 98%;
+        align-items: center;
+    }
+
+    #espadaDeLado {
+        transform: rotate(90deg);
+        width: 8%;
+        position: absolute;
+        right: 13%;
+        z-index: -1;
+    }
+
+    #primeiraLista,
+    #segundaLista2,
+    #terceiraLista {
+        width: 26.5%;
+        position: absolute;
+        border: solid;
+    }
+
+    #primeiraLista{
+        
+        left: 1%;
+        font-size: 18px;
+
+    }
+
+    #segundaLista2{
+       
+        left: 27.8%;
+        z-index: 2;
+       
+    }
+
+    #terceiraLista{
+        
+        left: 54.69%;
+        z-index: 2;
+    }
+    .paginasMenores {
+        width: 27%;
+        border: solid;
+        border-left: 0;
+        
+        text-align: center;
+        background-color: #005843;
+    }
+
+    
+    .paginasMenores:hover{
+        background-color: #005843;
+    }
+    #idDaPag{
+        border-left: solid;
+    }
+
+    .listasPaginasMenoresTitulo{
+        font-size: 19px;
+        padding: 5% 0;
+        margin-left: 0;
+        color: #65C77B;
+    }
+    
+    .listasPaginasMenoresTitulo:hover{
+        cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+        background-color: #005843;
+        color: #65C77B;
+    }
+
+    .listasPaginasMenores {
+        display: none;
+        margin: 0;
+        background-color: #1B2B3A;
+        padding: 1% 0;
+        padding-left: 2%;
+        border-top: solid;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .principalWiki {
+        width: 98%;
+        margin: 1%;
+    }
+
+    .partePrincipalWiki {
+        width: 88%;
+        height: -webkit-fill-available;
+        margin-bottom: 1%;
+    }
+
+    a{
+        color: #65C77B;
+    }
+
+    #logoHoraDeAventura {
+        margin-left: 17%;
+        margin-top: 3%;
+    }
+
+    .tituloDaPagina {
+        font-size: 25px;
+        margin-left: 2%;
+    }
+
+
+    .letraParaPesquisa{
+        font-size: 18px;
+    }
+    .tituloDoLado{
+        font-size: 13.5px;
+    }
+
+    #localDoPersonagemGunter, #localDoPersonagemReiGelado{
+        padding-bottom: 7%;
+        
+    }
+    #linkDaPesquisa{
+        width: 13%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 14px;
+    }
+    .pesquisa{
+        font-size: 11px;
+    }
+    .letra{
+        font-size: 19px;
+    }
+    .parteDeBaixo{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:600px){
+
+    .letra{
+        font-size: 18px;
+    }
+    .tituloDaPagina {
+        font-size: 24px;
+        margin-left: 2%;
+    }
+
+
+    .letraParaPesquisa{
+        font-size: 15.5px;
+    }
+    .tituloDoLado{
+        font-size: 11px;
+    }
+
+    .nomeDoObjetos{
+        font-size: 8px;
+    }
+
+    #localDoPersonagemGunter, #localDoPersonagemReiGelado{
+        padding-bottom: 9%;
+        
+    }
+    #linkDaPesquisa{
+        width: 13%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 12px;
+    }
+    .pesquisa{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 543px){
+    .listasPaginasMenoresTitulo{
+        font-size: 17px; 
+    }
+
+    .listasPaginasMenores {
+        
+        font-size: 16px;
+       
+    }
+}
+
+@media (max-width: 500px){
+    #lugarDaPagina{
+        margin-bottom: 1%;
+    }
+    
+
+    .paginasMenores{
+        width: 42%;
+    }
+
+    #idDaPag{
+        width: 39%;
+    }
+
+    #paginasOutrasLi{
+        display: none;
+    }
+
+    #primeiraLista, #segundaLista2{
+        width: 38.4%;
+        z-index: 2;
+    }
+
+    #segundaLista2{
+        width: 41.2%;
+        left: 39.87%;
+
+    }
+
+    .partePrincipalWiki{
+        width: 98%;
+    }
+
+    #osDaEsquerda{
+        width: auto;
+    }
+    .ladoWiki{
+        width: 0%;
+        display: none;
+    }
+
+    tr{
+        font-size: 12px;
+    }
+
+    .objetosPorLetra{
+        margin-right: 2%;
+    }
+
+    .letraParaPesquisa{
+        width: 98%;
+        margin-left: 1%;
+    }
+}
+@media (max-width: 406px){
+    .nomeDoObjetos{
+        font-size: 7px;
+    }
+}
+
+
+@media (max-height: 910px) {
+
+
+    
+    
+    li {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-height: 850px) {
+
+
+    li {
+        font-size: 17.5px;
+    }
+
+
+
+
+}
+
+@media (max-height: 750px) {
+
+
+
+    li {
+        font-size: 16px;
+    }
+
+
+}
+
+@media (max-height: 680px) {
+    #logoEWiki {
+        width: 90%;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-height: 600px) {
+    #logoEWiki {
+        width: 88%;
+    }
+
+    li {
+        font-size: 13.5px;
+    }
+}
+
+@media (max-height: 540px) {
+    #logoEWiki {
+        width: 87%;
+    }
+
+    li {
+        font-size: 12px;
+    }
+}
+
+/* ======================================Height=========================================== */
+
+/* 
+@media (max-height: 910px){
+    #rpgTitulo{
+        font-size: 21px;
+    }
+
+    
+    .barraEspada{
+        width: auto;
+    }
+    
+
+    li {
+        font-size: 19px;
+    }
+
+    .tituloSelecao{
+        font-size: 22px;
+    }
+
+    .localParteSelecao {
+        height: 44%;
+        width: 65%;
+    }
+
+    .textoParteSelecao {
+        width: 80%;
+        height: 47%;
+    }
+}
+
+@media (max-height: 850px){
+    #rpgTitulo{
+        font-size: 19px;
+    }
+   
+    li {
+        font-size: 17px;
+    }
+    .tituloSelecao{
+        font-size: 20px;
+    }
+
+    .localParteSelecao {
+        height: 44%;
+        width: 65%;
+    }
+
+    .textoParteSelecao {
+        width: 80%;
+        height: 47%;
+    }
+
+    
+}
+
+@media (max-height: 750px){
+    #rpgTitulo{
+        font-size: 17px;
+    }
+    .localParteSelecao {
+        height: 46%;
+        width: 65%;
+    }
+
+    .textoParteSelecao {
+        width: 80%;
+        height: 50%;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    .tituloSelecao{
+        font-size: 18px;
+         
+    }
+
+    
+}
+
+@media (max-height: 680px){
+    #rpgTitulo{
+        font-size: 15px;
+    }
+    .localParteSelecao {
+        height: 46%;
+        width: 65%;
+    }
+
+    .textoParteSelecao {
+        width: 80%;
+        height: 50%;
+    }
+
+    li {
+        font-size: 13.7px;
+    }
+
+    .tituloSelecao{
+        font-size: 16px;
+         
+    }
+
+    
+}
+
+@media (max-height: 600px){
+
+    
+    #rpgTitulo{
+        font-size: 14px;
+    }
+    .localParteSelecao {
+        height: 46%;
+        width: 68%;
+    }
+
+    .textoParteSelecao {
+        width: 82%;
+        height: 50%;
+    }
+
+    .tituloSelecao{
+        font-size: 15px;
+         
+    }
+    li {
+        font-size: 12.5px;
+         
+    }
+}
+
+@media (max-height: 536px){
+    #rpgTitulo{
+        font-size: 12px;
+    }
+    .localParteSelecao {
+        height: 46%;
+        width: 68%;
+    }
+
+    .textoParteSelecao {
+        width: 82%;
+        height: 50%;
+    }
+
+    .tituloSelecao{
+        font-size: 13px;
+         
+    }
+    li {
+        font-size: 11px;
+         
+    }
+}
+
+@media (max-height: 469px){
+    #personagensTitulo{
+        font-size: 11px;
+    }
+    
+    .localParteSelecao {
+        height: 46%;
+        width: 68%;
+    }
+
+    .textoParteSelecao {
+        width: 82%;
+        height: 50%;
+    }
+
+    .tituloSelecao{
+        font-size: 12px;
+         
+    }
+    li {
+        font-size: 10px;
+         
+    }
+} */

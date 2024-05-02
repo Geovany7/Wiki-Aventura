@@ -1,0 +1,851 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'Trade Winds';
+    src: url(TradeWinds-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Supermercado One';
+    src: url(SupermercadoOne-Regular.ttf);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Noto Sans', sans-serif;
+    cursor: url(/src/img/Demon_Sword2p.png), default;
+}
+
+body {
+    background: url(finns_house_4.png) fixed no-repeat;
+    position: absolute;
+
+}
+
+#lugarDaPagina{
+    display: none;
+}
+
+
+.barraEspada {
+
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 19.65%;
+}
+
+#goldensword {
+    position: absolute;
+    height: 95%;
+    top: 3%;
+    z-index: -1;
+    transform: scaleY(-1);
+}
+
+#todaEssaMerda {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logoEWiki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logoHoraDeAventura {
+
+    width: 100%;
+
+}
+
+#wiki {
+
+    width: 38%;
+
+}
+
+#localDoTextoDaSelecao {
+    width: 68%;
+    height: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.localParteSelecao {
+    opacity: 0.5;
+    height: inherit;
+    width: inherit;
+    background: #D9D9D9;
+    border: solid 3px black;
+    position: absolute;
+    z-index: -1;
+}
+
+.textoParteSelecao {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95%;
+}
+
+a {
+    text-decoration: none;
+    color: #010101;
+    cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    height: 0.4%;
+    border: none;
+    margin-bottom: 1%;
+}
+
+li {
+    margin-left: 5%;
+    list-style-type: none;
+    font-size: 20px;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+a:hover {
+    color: white;
+}
+
+.tituloSelecao {
+    color: black;
+    margin-left: 0;
+    font-weight: 800;
+}
+.linkParaAsPaginas {
+    color: #65C77B;
+}
+
+
+.parteWiki {
+    width: 79%;
+   
+    margin: 1% 0;
+    margin-left: 20%;
+   
+    
+    display: flex;
+    
+}
+
+.oCimaEOTextos{
+    height: 100%;
+    width: 83%;
+}
+.parteCimaWiki {
+    background-color: #860200;
+   
+    padding-bottom: 1%;
+
+}
+
+/*sexo aqui*/
+
+.fundin {
+    background-color: #000000;
+    width: 70%;
+    height: -webkit-fill-available;
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+    margin: 1% 0;
+}
+
+.magu {
+    width: 10%;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-right: 7.4%;
+}
+
+.loguinha {
+    width: 50%;
+    margin-left: 6%;
+}
+
+.Lich {
+    margin-left: 2%;
+    margin-top: 0.8%;
+    color: #ffffff;
+    font-size: 32px;
+
+}
+
+#divParaAgupar{
+    margin-top: 2.6%;
+    display: flex;
+    justify-content: center;
+}
+
+.dadosPsg {
+    width: 80%;
+    display: flex;
+    
+
+}
+
+.tabelaDeDados {
+    width: 55%;
+    border-collapse: collapse;
+}
+
+td {
+    font-size: 19px;
+    text-shadow:
+        -2px -2px 1px #000,
+        -2px 2px 1px #000,
+        2px -2px 1px #000,
+        2px 1px 1px #000;
+
+    font-family: "Trade Winds", system-ui;
+    border-left: 6px solid #000000;
+}
+
+.bordeVermelho {
+    border-left: #860200 6px solid;
+}
+
+.lichVermei {
+    width: 54%;
+
+
+}
+
+.linhaCorVermeia,
+.linhaBlack {
+    color: #9B664D;
+    padding-left: 2%;
+
+
+}
+
+.linhaBlack {
+
+    background-color: #000000;
+
+}
+
+.linhaCorVermeia {
+
+    background-color: #860200;
+
+}
+
+.tituloLich {
+    font-family: 'Supermercado One';
+    color: #F93F3D;
+    text-shadow:
+        -2px -2px 1px #000,
+        -2px 2px 1px #000,
+        2px -2px 1px #000,
+        2px 1px 1px #000;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 0.3%;
+}
+
+hr {
+    width: 95.4%;
+    background-color: #222222;
+    margin-left: 3%;
+    height: 2px;
+}
+
+#magiasT {
+    margin-left: 4.5%;
+    width: 93.6%;
+}
+
+.textoLich {
+    margin-top: 0.5%;
+    font-family: 'Trade Winds';
+    color: #860200;
+    text-shadow: -2px -2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000, 2px 1px 1px #000;
+    width: 95.4%;
+    margin-left: 3%;
+    text-align: justify;
+}
+
+#possuiu {
+    margin-top: 2%;
+}
+
+.subTitulo {
+    font-family: 'Supermercado One';
+    color: #F93F3D;
+    margin-left: 4.5%;
+    text-shadow:
+        -2px -2px 1px #000,
+        -2px 2px 1px #000,
+        2px -2px 1px #000,
+        2px 1px 1px #000;
+}
+
+.subSubTitulo {
+    font-family: 'Supermercado One';
+    color: #A92B2A;
+    margin-left: 4.5%;
+    margin-top: 1%;
+    text-shadow:
+        -2px -2px 1px #000,
+        -2px 2px 1px #000,
+        2px -2px 1px #000,
+        2px 1px 1px #000;
+}
+
+.textoSub {
+    margin-top: 0.5%;
+    font-family: 'Trade Winds';
+    color: #860200;
+    text-shadow: -2px -2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000, 2px 1px 1px #000;
+    width: 93%;
+    margin-left: 4.5%;
+    text-align: justify;
+}
+
+
+.curiosidadesManeiras {
+    display: flex;
+    width: 93.8%;
+    margin-left: 3.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    text-align: justify;
+}
+
+.Genitalia {
+    list-style-type: disc;
+    color: #860200;
+    text-shadow:
+        -2px -2px 1px #000,
+        -2px 2px 1px #000,
+        2px -2px 1px #000,
+        2px 1px 1px #000;
+}
+
+
+.wikiLado {
+    background-color: #860200;
+    /* position: absolute; */
+    width: 17%;
+    /* height: 99%; */
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.lichNoFundo {
+
+    margin-top: 10%;
+    width: 95%;
+}
+
+.vilões {
+    width: 100%;
+    color: #000;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.locaisDosPersonagensLado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divDosBoneco {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    margin-top: 5%;
+    background-color: #A5FFBC;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.nomeHunsonAbadeer {
+    background-color: #D03C39;
+    color: #01000E;
+}
+
+.nomePrincesaJujuba {
+    background-color: #82428C;
+    color: #F4B1CE;
+}
+
+.nomeLimãograb {
+    background-color: #836A54;
+    color: #FFB826;
+}
+
+.nomeDoMagico {
+    background-color: #A5FFBC;
+    color: #4BD8FF;
+}
+
+.magiquinho {
+    width: 100%;
+
+
+
+}
+
+.lichCapa {
+    width: 100%;
+
+}
+
+.curioso {
+    color: #F93F3D;
+    text-shadow:
+        -2px -2px 1px #000,
+        -2px 2px 1px #000,
+        2px -2px 1px #000,
+        2px 1px 1px #000;
+        margin-left: 2%;
+}
+
+
+@media (max-width: 770px) {
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .barraEspada {
+        display: none;
+    }
+
+    #lugarDaPagina {
+        margin-top: 0.5%;
+        display: flex;
+        width: 98%;
+        align-items: center;
+    }
+
+    #espadaDeLado {
+        transform: rotate(-90deg);
+        width: 9%;
+        position: absolute;
+        right: 10%;
+        z-index: -1;
+       
+    }
+
+    #primeiraLista,
+    #segundaLista2,
+    #terceiraLista {
+        width: 26.5%;
+        position: absolute;
+        border: solid;
+        color: #4D1270;
+    }
+
+    #primeiraLista {
+
+        left: 1%;
+        font-size: 18px;
+
+    }
+
+    #segundaLista2 {
+
+        left: 27.8%;
+        z-index: 2;
+
+    }
+
+    #terceiraLista {
+
+        left: 54.69%;
+        z-index: 2;
+    }
+
+    .paginasMenores {
+        width: 27%;
+        border: solid;
+        border-left: 0;
+
+        text-align: center;
+        background-color: #860200;
+        
+    }
+
+
+
+    #idDaPag {
+        border-left: solid;
+    }
+
+    .listasPaginasMenoresTitulo {
+        font-size: 19px;
+        padding: 5% 0;
+        margin-left: 0;
+      
+    }
+
+    .listasPaginasMenoresTitulo:hover {
+        cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+        background-color: #860200;
+
+    }
+
+    .listasPaginasMenores {
+        display: none;
+        margin: 0;
+        background-color: #01000E;
+        color: #860200;
+        padding: 1% 0;
+        padding-left: 2%;
+        border-top: solid;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    a{
+        color: #860200; 
+    }
+
+    .parteWiki {
+        width: 98%;
+        margin: 1%;
+    }
+
+    .fundin {
+        width: 88%;
+
+    }
+
+    .loguinha {
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+
+    .tituloDaPagina {
+        font-size: 29px;
+        margin-left: 2%;
+    }
+
+    .dadosPsg {
+        width: 90%;
+    }
+
+    .lichVermei {
+        width: 50%;
+    }
+
+    .tabelaDeDados {
+        width: 55%;
+    }
+
+    td {
+        font-size: 15px;
+    }
+
+    .tituloLich,
+    .curioso {
+        font-size: 21px;
+        margin-left: 2%;
+    }
+
+    hr {
+        margin-left: 2%;
+    }
+
+    .textoLich {
+        font-size: 15px;
+        margin-left: 2.2%;
+    }
+
+    .curiosidadesManeiras{
+        align-items: center;
+    }
+
+    .finalzin {
+        width: 20%;
+        height: 100%;
+    }
+
+    .Genitalia {
+        font-size: 15px;
+        margin-left: 6%;
+    }
+
+    .imageComAsInformacoes,
+    .nomeDoIten {
+        width: 80%;
+    }
+
+    .nomeDoIten {
+        font-size: 21px;
+    }
+
+    #linkDaPesquisa {
+        width: 14%;
+        height: 1.5%;
+    }
+
+    .pesquisa {
+        padding: 0 8%;
+    }
+
+    .pesquisa::placeholder {
+        width: 100%;
+        text-align: center;
+    }
+
+    .locaisDosPersonagens p {
+        font-size: 14px;
+    }
+
+    .tituloDoLado {
+        font-size: 14px;
+    }
+
+    .divDosBoneco {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .imageComAsInformacoes,
+    .nomeDoIten {
+        width: 90%;
+    }
+
+    .vilões {
+        font-size: 12px;
+    }
+
+    .tituloDaLista {
+        font-size: 22px;
+    }
+
+    #imageDaLista {
+        width: 20%;
+    }
+
+    .listaDosPersonagens {
+        width: 35%;
+    }
+
+    .oQueOPersonagemE {
+        font-size: 18px;
+    }
+
+    .nomeDoPersonagem {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 543px) {
+    
+    .listasPaginasMenoresTitulo {
+        font-size: 17px;
+    }
+
+    .listasPaginasMenores {
+
+        font-size: 16px;
+
+    }
+
+    .tituloDaPagina {
+        font-size: 27px;
+        margin-left: 2%;
+    }
+
+    .subTituloWiki {
+        font-size: 19px;
+        margin-left: 2%;
+    }
+
+    .textoWiki {
+        font-size: 14px;
+        margin-left: 2.2%;
+    }
+
+    #listaDeTodasAsCuriosidade {
+        margin-left: 2%;
+        width: 99%;
+    }
+
+    .listaDeCuriosidade {
+        font-size: 14px;
+        width: 91%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .loguinha {
+        margin-left: 3%;
+    }
+    #lugarDaPagina {
+        margin-bottom: 1%;
+    }
+
+
+    .paginasMenores {
+        width: 42%;
+    }
+
+    #idDaPag {
+        width: 39%;
+    }
+
+    #paginasOutrasLi {
+        display: none;
+    }
+
+    #primeiraLista,
+    #segundaLista2 {
+        width: 38.4%;
+        z-index: 2;
+    }
+
+    #segundaLista2 {
+        width: 41.2%;
+        left: 39.87%;
+
+    }
+
+    .parteWiki {
+        width: 98%;
+    }
+
+    .oCimaEOTextos {
+        width: 100%;
+    }
+
+    .fundin {
+        width: 98%;
+    }
+
+   
+    .dadosPsg {
+        
+        width: 90%;
+    }
+
+    .wikiLado {
+        width: 0%;
+        display: none;
+    }
+
+
+    tr {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 406px) {
+    .dadosPsg {
+        margin-left: 1%;
+    }
+    .imageComAsInformacoes,
+    .nomeDoIten {
+        width: 94%;
+    }
+
+    tr {
+        font-size: 11px;
+    }
+}
+
+
+@media (max-height: 910px) {
+
+
+    
+    
+    li {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-height: 850px) {
+
+
+    li {
+        font-size: 17.5px;
+    }
+
+
+
+
+}
+
+@media (max-height: 750px) {
+
+
+
+    li {
+        font-size: 16px;
+    }
+
+
+}
+
+@media (max-height: 680px) {
+    #logoEWiki {
+        width: 90%;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-height: 600px) {
+    #logoEWiki {
+        width: 88%;
+    }
+
+    li {
+        font-size: 13.5px;
+    }
+}
+
+@media (max-height: 540px) {
+    #logoEWiki {
+        width: 87%;
+    }
+
+    li {
+        font-size: 12px;
+    }
+}

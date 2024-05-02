@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.barraDePesquisa{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 20%;
+}
+
+#pesquisa{
+    position: absolute;
+    top: 17%;
+    border-radius: 7px;
+    z-index: 1;
+    width: 60%;
+    left: 7%;
+    text-decoration: none;
+    
+    padding-left: 2%;
+    border: solid 2px #222222;
+    height: 32%;
+    box-shadow: #FAFAFC;
+    background-color: #FAFAFC;
+    opacity: 0.9;
+}
+
+#espadaSemLogo{
+    position: absolute;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.cropped1 {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 5px solid black;
+}
+.cropped2 {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    object-position: 20px 10px; /* try 20% 10% */ 
+    border: 5px solid black;
+}

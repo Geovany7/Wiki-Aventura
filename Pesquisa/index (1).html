@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de Aventura</title>
+    <link rel="stylesheet" href="/Pesquisa/index.css">
+    <link rel="shortcut icon" href="/src/img/fundoFoda.jpg" type="image/x-icon">
+
+<body>
+    <div id="lugarDaPagina">
+        <ul class="paginasMenores" id="idDaPag">
+            <li class="listasPaginasMenoresTitulo" id="idPagPag" onclick="abrirEFecharPagina()">Página</li>
+            <ul id="primeiraLista">
+                <li class="listasPaginasMenores" id="idPagin"><a href="/Página Principal/index.html">Home</a></li>
+                <li class="listasPaginasMenores" id="idPersonagens"><a
+                        href="/Personagens/personagens.html">Personagens</a></li>
+                <li class="listasPaginasMenores" id="idRPG"><a href="/RPG/rpg.html">RPG</a></li>
+                <li class="listasPaginasMenores" id="idObjetos"><a href="/Objetos/objetos.html">Objetos</a></li>
+                <li class="listasPaginasMenores" id="idEpisodios"><a href="/Episódios/episodios.html">Episódios</a></li>
+            </ul>
+        </ul>
+        <ul class="paginasMenores">
+            <li class="listasPaginasMenoresTitulo" id="idlinksOfi" onclick="abrirEFecharLinksOficiais()">Links Oficiais</li>
+            <ul id="segundaLista">
+                <li class="listasPaginasMenores" id="idSiteOficial"><a href="https://www.cartoonnetwork.com.br/show/hora-de-aventura"
+                        target="_blank">Site
+                        oficial</a>
+                </li>
+                <li class="listasPaginasMenores" id="idMercadoriaOficial"><a href="https://www.cnshop.com.br/colecoes/hora-de-aventura"
+                        target="_blank" rel="noopener noreferrer">Mercadoria oficial</a></li>
+                <li class="listasPaginasMenores" id="idReddit"><a href="https://www.reddit.com/r/adventuretime/"
+                        target="_blank">Reddit</a></li>
+                <li class="listasPaginasMenores" id="idFrederatorStudios"><a href="https://frederator.com/" target="_blank">Frederator
+                        Studios</a>
+                </li>
+            </ul>
+        </ul>
+        <ul class="paginasMenores" id="paginasOutrasLi">
+            <li class="listasPaginasMenoresTitulo" id="idOutrasLi" onclick="abrirEFecharOutraslínguas()">Outras línguas</li>
+            <ul id="terceiraLista">
+            <li class="listasPaginasMenores" id="idEnglish">English</li>
+            <li class="listasPaginasMenores" id="idPortugues">Português</li></ul>
+        </ul>
+        <img src="/src/img/Finn_Sword_vertical.png" id="espadaDeLado" alt="Espada Finn">
+    </div>
+
+
+    <div class="barraEspada">
+
+        <img src="/src/img/Finn_Sword_vertical.png" alt="Finn_Sword_vertical" id="goldensword">
+        <div id="todaEssaMerda">
+            <div id="logoEWiki">
+                <img src="/src/img/logo hora de aventura - Copia.png" alt="logo hora de aventura"
+                    class="logoHoraDeAventura" width="25%">
+                <img src="/src/img/wiki.png" alt="wiki" id="wiki">
+            </div>
+            <div id="localDoTextoDaSelecao">
+                <div class="localParteSelecao">
+
+                </div>
+
+                <div class="textoParteSelecao">
+                    <ul>
+                        <li class="tituloSelecao"><a href="/Página Principal/index.html">Página principal</a></li>
+                        <hr>
+                        <li><a href="/Personagens/personagens.html">Personagens</a></li>
+                        <li><a href="/RPG/rpg.html">RPG</a></li>
+                        <li><a href="/Objetos/objetos.html">Objetos</a></li>
+                        <li><a href="/Episódios/episodios.html">Episódios</a></li>
+
+                    </ul>
+                    <ul>
+                        <li class="tituloSelecao">Links Oficiais</li>
+                        <hr>
+                        <li><a href="https://www.cartoonnetwork.com.br/show/hora-de-aventura" target="_blank">Site
+                                oficial</a>
+                        </li>
+                        <li><a href="https://www.cnshop.com.br/colecoes/hora-de-aventura" target="_blank"
+                                rel="noopener noreferrer">Mercadoria oficial</a></li>
+                        <li><a href="https://www.reddit.com/r/adventuretime/" target="_blank">Reddit</a></li>
+                        <li><a href="https://frederator.com/" target="_blank">Frederator Studios</a></li>
+                    </ul>
+                    <ul>
+                        <li class="tituloSelecao">Outras línguas</li>
+                        <hr>
+                        <li>English</li>
+                        <li>Português</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <header class="Parte Base">
+        <div class="logobarra">
+            <img src="img/logobarra.png"/>
+        </div>
+        <div class="marceline">
+            <img src="img/marceline.png"/>
+        </div>
+        <div class="fundo">
+            <img src="img/fundo.png"/>
+        </div>
+        <div class="logo">
+            <img src="img/logo.png"/>
+        </div> 
+    </header>
+     -->
+    <div class="parteWiki" onclick="fecharTudo()">
+        <div class="barraDePesquisa">
+
+            <img class="imagemBarraDePesquisa" src="/src/img/logobarra.png" alt="logo barra">
+            <input placeholder="Pesquisar" class="pesquisa" type="search">
+
+        </div>
+        <div class="tudoSobrePesquisa">
+            <div class="informacoes">
+                <div class="daviMeSupreenda">
+                    <h2>"Piloto"</h2>
+                    <p>No episódio piloto da série, Finn(no episódio, Pen) e seu irmão cachorro Jake lutam contra Rei
+                        Gelado para resgatar a Princesa Jujuba.</p>
+                </div>
+                <div class="daviMeSupreenda">
+                    <h2>"Problemas na Terra do Caroço"</h2>
+                    <p>Após a Princesa Caroço morder Jake ele começa a ficar encaroçado. Finn viaja a Terra do Caroço
+                        para encontrar uma cura.</p>
+                </div>
+                <div class="daviMeSupreenda">
+                    <h2>"Prisioneiras do Amor"</h2>
+                    <p>Finn e Jake são capturados pelo Rei Gelado, e eles precisam libertar as sete princesas que o Rei
+                        Gelado raptou.</p>
+                </div>
+                <div class="daviMeSupreenda">
+                    <h2>"Dona Tromba"</h2>
+                    <p>Finn e Jake ajudam Dona Tromba na busca da Maçã Gema de Cristal.</p>
+                </div>
+                <div class="daviMeSupreenda">
+                    <h2>"O Enquirídio!"</h2>
+                    <p>Finn e Jake querem provar que são aventureiros e vão atrás do Enquirídio, o Manual do Herói.</p>
+                </div>
+                <div class="daviMeSupreenda">
+                    <h2>"Zig-Zag"</h2>
+                    <p>Finn e Jake encontram uma criatura para brincar de sons, que ela fazia, mais eles não sabiam o
+                        que poderia acontecer se ela saísse de perto da mãe.</p>
+                </div>
+                <div class="daviMeSupreenda">
+                    <h2>"Ricardio, o Coração"</h2>
+                    <p>Uma coração de fala mansa chamado Ricardio surge e chama a atenção de Princesa Jujuba, deixando
+                        Finn com ciúmes enquanto suspeita de que ele pode ser mau.</p>
+                </div>
+                <div class="daviMeSupreenda">
+                    <h2>"Hora de Negócios"</h2>
+                    <p>Finn e Jake encontram executivos congelados em Icebergs. Como estavam desempregados, começam a
+                        trabalhar para a dupla.</p>
+                </div>
+            </div>
+            <div class="imagemComInformacoes">
+                <img class="aImagem" src="/src/img/marcel.jpg" alt="fodase">
+                <div class="nomeNaDiv">
+                    <h2>nome</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit animi id, et provident debitis
+                        tempora doloremque accusamus unde ipsam ut omnis reiciendis eaque repellat voluptate quia
+                        assumenda quae sapiente iste.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="fundo"></div>
+    </div>
+
+
+    <script src="pesquisa.js"></script>
+</body>
+
+</html>

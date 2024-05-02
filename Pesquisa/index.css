@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    cursor: url(/src/img/Finn_Sword_verticalp.png), default;
+}
+
+body {
+    background: url(/src/img/fundoFoda.jpg) fixed no-repeat;
+    position: absolute;
+    background-size: cover;
+}
+
+.barraEspada {
+
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 19.65%;
+}
+
+#goldensword {
+    position: absolute;
+    height: 95%;
+    top: 3%;
+    z-index: -1;
+}
+
+#todaEssaMerda {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logoEWiki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logoHoraDeAventura {
+
+    width: 100%;
+
+}
+
+#wiki {
+
+    width: 38%;
+
+}
+
+#localDoTextoDaSelecao {
+    width: 68%;
+    height: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.localParteSelecao {
+    opacity: 0.5;
+    height: inherit;
+    width: inherit;
+    background: #D9D9D9;
+    border: solid 3px black;
+    position: absolute;
+    z-index: -1;
+}
+
+.textoParteSelecao {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95%;
+}
+
+a {
+    text-decoration: none;
+    color: #010101;
+    cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    height: 0.4%;
+    border: none;
+    margin-bottom: 1%;
+}
+
+li {
+    margin-left: 5%;
+    list-style-type: none;
+    font-size: 20px;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+a:hover {
+    color: white;
+}
+
+.tituloSelecao {
+    color: black;
+    margin-left: 0;
+    font-weight: 800;
+}
+
+.parteWiki {
+    width: 77%;
+
+    border: #FFD686 solid 15px;
+    border-top: 0;
+    margin: 1% 0;
+    margin-left: 20%;
+
+}
+
+.fundo {
+    width: 77%;
+    height: -webkit-fill-available;
+    position: absolute;
+    z-index: -1;
+    background-color: #1C1D1F;
+    opacity: 0.9;
+    margin: 2% 0;
+    TOP: 0;
+
+}
+
+.barraDePesquisa {
+    width: 100%;
+    background-color: #FFD686;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.imagemBarraDePesquisa {
+    width: 35%;
+
+}
+
+.pesquisa {
+    position: absolute;
+    border-radius: 15px;
+    padding-left: 1.2%;
+    width: 15%;
+    background-color: black;
+    border: #1C1D1F solid 1px;
+    height: 3%;
+    color: #FFD686;
+    display: flex;
+    justify-content: center;
+    padding-right: 1.2%;
+    font-size: 17px;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.pesquisa::placeholder {
+    text-align: center;
+    color: #FFD686;
+    width: 100%;
+    font-size: 17px;
+}
+
+.tudoSobrePesquisa {
+
+
+    color: black;
+
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+
+}
+
+.informacoes {
+    width: 68%;
+    margin-left: 2%;
+    text-align: justify;
+
+}
+
+.daviMeSupreenda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1.5%;
+    margin-bottom: 2%;
+    border-radius: 14px;
+}
+
+.imagemComInformacoes {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+
+
+}
+
+.aImagem {
+    width: 100%;
+    background-color: #FFD686;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    padding-top: 1%;
+
+}
+
+.nomeNaDiv {
+    background-color: white;
+    padding: 3%;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+#lugarDaPagina{
+    display: none;
+}
+
+@media (max-width: 1114px) {
+    .parteWiki {
+        width: 76%;
+    }
+
+    .pesquisa {
+        width: 18%;
+    }
+
+    .pesquisa::placeholder {
+        font-size: 16px;
+    }
+
+    .daviMeSupreenda h2,
+    .nomeNaDiv h2 {
+        font-size: 22px;
+        margin-bottom: 1%;
+    }
+
+    .daviMeSupreenda p,
+    .nomeNaDiv p {
+        font-size: 15px;
+        margin: 0 1%;
+        margin-bottom: 1%;
+    }
+}
+
+@media (max-width: 770px) {
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .barraEspada {
+        display: none;
+    }
+
+    #lugarDaPagina {
+        margin-top: 0.5%;
+        display: flex; 
+        width: 98%;
+        align-items: center;
+    }
+
+    #espadaDeLado{
+        transform: rotate(90deg);
+        width: 5%; 
+        position: absolute;
+        right: 16%;
+        z-index: -1;
+    }
+
+    #primeiraLista, #segundaLista, #terceiraLista{
+        width: 26.5%;
+        position: absolute;
+        border: solid;
+    }
+
+    #primeiraLista:hover, #segundaLista:hover, #terceiraLista:hover{
+        background-color: #eecd8a;
+    }
+
+    #primeiraLista{
+        
+        left: 1%;
+        font-size: 18px;
+
+    }
+
+    #segundaLista{
+       
+        left: 27.8%;
+        z-index: 2;
+       
+    }
+
+    #terceiraLista{
+        
+        left: 54.69%;
+        z-index: 2;
+    }
+    .paginasMenores {
+        width: 27%;
+        border: solid;
+        border-left: 0;
+        
+        text-align: center;
+        background-color: #FFD686;
+    }
+
+    
+    .paginasMenores:hover{
+        background-color: #eecd8a;
+    }
+    #idDaPag{
+        border-left: solid;
+    }
+
+    .listasPaginasMenoresTitulo{
+        font-size: 19px;
+        padding: 5% 0;
+        margin-left: 0;
+    }
+    
+    .listasPaginasMenoresTitulo:hover{
+        cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+        background-color: #eecd8a;
+    }
+
+    .listasPaginasMenores {
+        display: none;
+        margin: 0;
+        background-color: white;
+        padding: 1% 0;
+        padding-left: 2%;
+        border-top: solid;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    a:hover{
+        color: #FFD686;
+    }
+
+    .parteWiki {
+        width: 94%;
+        margin-left: 0;
+    }
+
+    .fundo {
+        width: 94%;
+        bottom: 0;
+        top: auto;
+        height: 92%;
+    }
+
+    .pesquisa {
+        width: 22%;
+        font-size: 16px;
+    }
+
+    .pesquisa::placeholder {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px){
+    .pesquisa {
+        width: 26%;
+        font-size: 15px;
+    }
+    .pesquisa::placeholder {
+        font-size: 15px;
+    }
+
+    .daviMeSupreenda h2,
+    .nomeNaDiv h2 {
+        font-size: 21px;
+        margin-bottom: 1%;
+    }
+}
+
+@media(max-width: 543px){
+    .listasPaginasMenoresTitulo{
+        font-size: 17px; 
+    }
+
+    .listasPaginasMenores {
+        
+        font-size: 16px;
+       
+    }
+
+    .daviMeSupreenda h2,
+    .nomeNaDiv h2 {
+        font-size: 20px;
+        margin-bottom: 1%;
+    }
+
+    .daviMeSupreenda p,
+    .nomeNaDiv p {
+        font-size: 14px;
+        margin: 0 1%;
+        margin-bottom: 1%;
+    }
+}
+
+@media (max-width: 500px){
+    .paginasMenores{
+        width: 42%;
+    }
+
+    #idDaPag{
+        width: 39%;
+    }
+
+    #paginasOutrasLi{
+        display: none;
+    }
+
+    #primeiraLista, #segundaLista{
+        width: 38.4%;
+        z-index: 2;
+    }
+
+    #segundaLista{
+        width: 41.2%;
+        left: 39.87%;
+
+    }
+
+    .parteWiki{
+        width: 94%;
+        border: #FFD686 solid 10px;
+    }
+
+    .tudoSobrePesquisa {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .informacoes{
+        width: 92%;
+    }
+
+    .imagemComInformacoes{
+        flex-direction: row;
+        width: 92%;
+        margin-bottom: 3%;
+    }
+    .aImagem{
+        width: 25%;
+        border-bottom-left-radius: 14px;
+        border-top-right-radius: 0;
+    }
+
+    .nomeNaDiv{
+        border-top-right-radius: 14px;
+        border-bottom-left-radius: 0;
+    }
+}
+
+@media (max-width: 400px){
+    .aImagem{
+        width: 30%;
+        border-bottom-left-radius: 14px;
+        border-top-right-radius: 0;
+    }
+}
+
+@media (max-width: 338px){
+    .parteWiki{
+        border: #FFD686 solid 5px;
+    }
+    .aImagem{
+        width: 40%;
+        border-bottom-left-radius: 14px;
+        border-top-right-radius: 0;
+    } 
+
+    .daviMeSupreenda h2,
+    .nomeNaDiv h2 {
+        font-size: 18px;
+        margin-bottom: 1%;
+    }
+
+    .daviMeSupreenda p,
+    .nomeNaDiv p {
+        font-size: 13px;
+        margin: 0 1%;
+        margin-bottom: 1%;
+    }
+
+    .pesquisa {
+        width: 42%;
+        font-size: 14px;
+        padding: 0 3%;
+    }
+
+    .pesquisa::placeholder {
+        font-size: 14px;
+    }
+}
+
+@media (max-height: 910px) {
+
+
+    li {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-height: 850px) {
+
+
+    li {
+        font-size: 17.5px;
+    }
+
+
+
+
+}
+
+@media (max-height: 750px) {
+
+
+
+    li {
+        font-size: 16px;
+    }
+
+
+}
+
+@media (max-height: 680px) {
+    #logoEWiki {
+        width: 90%;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-height: 600px) {
+    #logoEWiki {
+        width: 88%;
+    }
+
+    li {
+        font-size: 13.5px;
+    }
+}
+
+@media (max-height: 540px) {
+    #logoEWiki {
+        width: 87%;
+    }
+
+    li {
+        font-size: 12px;
+    }
+}

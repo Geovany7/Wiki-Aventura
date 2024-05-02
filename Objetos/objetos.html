@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/src/img/Adventure-time-background-paintings-1.webp" type="image/x-icon">
+
+
+<body onload="pagina1()"  id="inicio">
+    <!-- Tablet e Celular-->
+    <div id="lugarDaPagina">
+        <ul class="paginasMenores" id="idDaPag">
+            <li class="listasPaginasMenoresTitulo" id="idPagPag" onclick="abrirEFecharPagina()">Página</li>
+            <ul id="primeiraLista">
+                <li class="listasPaginasMenores" id="idPagin"><a href="/Página Principal/index.html">Home</a></li>
+                <li class="listasPaginasMenores" id="idPersonagens"><a
+                        href="/Personagens/personagens.html">Personagens</a></li>
+                <li class="listasPaginasMenores" id="idRPG"><a href="/RPG/rpg.html">RPG</a></li>
+                <li class="listasPaginasMenores" id="idObjetos"><a href="/Objetos/objetos.html">Objetos</a></li>
+                <li class="listasPaginasMenores" id="idEpisodios"><a href="/Episódios/episodios.html">Episódios</a></li>
+            </ul>
+        </ul>
+        <ul class="paginasMenores">
+            <li class="listasPaginasMenoresTitulo" id="idlinksOfi" onclick="abrirEFecharLinksOficiais()">Links Oficiais</li>
+            <ul id="segundaLista2">
+                <li class="listasPaginasMenores" id="idSiteOficial"><a href="https://www.cartoonnetwork.com.br/show/hora-de-aventura"
+                        target="_blank">Site
+                        oficial</a>
+                </li>
+                <li class="listasPaginasMenores" id="idMercadoriaOficial"><a href="https://www.cnshop.com.br/colecoes/hora-de-aventura"
+                        target="_blank" rel="noopener noreferrer">Mercadoria oficial</a></li>
+                <li class="listasPaginasMenores" id="idReddit"><a href="https://www.reddit.com/r/adventuretime/"
+                        target="_blank">Reddit</a></li>
+                <li class="listasPaginasMenores" id="idFrederatorStudios"><a href="https://frederator.com/" target="_blank">Frederator
+                        Studios</a>
+                </li>
+            </ul>
+        </ul>
+        <ul class="paginasMenores" id="paginasOutrasLi">
+            <li class="listasPaginasMenoresTitulo" id="idOutrasLi" onclick="abrirEFecharOutraslínguas()">Outras línguas</li>
+            <ul id="terceiraLista">
+            <li class="listasPaginasMenores" id="idEnglish">English</li>
+            <li class="listasPaginasMenores" id="idPortugues">Português</li></ul>
+        </ul>
+        <img src="/src/img/GoldenswordLogo.png" id="espadaDeLado" alt="espadaDeGrama">
+    </div>
+    <!-- Tablet e Celular -->
+
+
+    <!-- PC e Notebook -->
+    <div class="barraEspada">
+
+        <img src="/src/img/GoldenswordLogo.png" alt="Finn_Sword_vertical" id="goldensword">
+        <div id="todaEssaMerda">
+            <div id="logoEWiki">
+                <img src="/src/img/logo hora de aventura - Copia.png" alt="logo hora de aventura"
+                    class="logoHoraDeAventura" width="25%">
+                <img src="/src/img/wiki.png" alt="wiki" id="wiki">
+            </div>
+            <div id="localDoTextoDaSelecao">
+                <div class="localParteSelecao">
+
+                </div>
+
+                <div class="textoParteSelecao">
+                    <ul>
+                        <li class="tituloSelecao" id="nomePaginaPrin">Página principal</li>
+                <hr>
+                <li><a href="/Personagens/personagens.html" id="nomePersonagens">Personagens</a></li>
+                        <li><a href="/RPG/rpg.html" id="rpgTitulo">RPG</a></li>
+                        <li><a href="/Objetos/objetos.html" id="nomeObjetos">Objetos</a></li>
+                <li><a href="/Episódios/episodios.html" id="nomeEpisodios">Episódios</a></li>
+
+                    </ul>
+                    <ul>
+                        <li class="tituloSelecao">Links Oficiais</li>
+                        <hr>
+                        <li><a href="https://www.cartoonnetwork.com.br/show/hora-de-aventura" target="_blank">Site
+                                oficial</a>
+                        </li>
+                        <li><a href="https://www.cnshop.com.br/colecoes/hora-de-aventura" target="_blank"
+                                rel="noopener noreferrer">Mercadoria oficial</a></li>
+                        <li><a href="https://www.reddit.com/r/adventuretime/" target="_blank">Reddit</a></li>
+                        <li><a href="https://frederator.com/" target="_blank">Frederator Studios</a></li>
+                    </ul>
+                    <ul>
+                        <li class="tituloSelecao" id="outrasLinguas">Outras línguas</li>
+                <hr>
+                <li onclick="english()"><a href="#corpo" id="englishPf">English</a></li>
+                <li onclick="portugues()"><a href="#corpo" class="linguasDif" id="portuguesPf">Português</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="principalWiki">
+        <div class="parteWiki">
+            <div id="osDaEsquerda">
+            <div class="partePrincipalWikiCima">
+                <div class="imageWikiCima">
+                    <img src="/src/img/Enquirídio.webp" id="imageEnquirídio" alt="Enquirídio">
+                    <img src="/src/img/logo hora de aventura.png" id="logoHoraDeAventura" alt="logo hora de aventura">
+                </div>
+                <h1 class="tituloDaPagina">Objetos</h1>
+                <h2 class="letraParaPesquisa">
+                    <a onclick="pagina1()" class="customizarLetras"  href="#a">A</a>-<a onclick="pagina1()" class="customizarLetras" href="#b">B</a>-<a onclick="pagina1()"
+                        class="customizarLetras" href="#c">C</a>-<a onclick="pagina2()" class="customizarLetras" href="#d">D</a>-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z
+                </h2>
+
+
+            </div>
+            <div class="objetosPorLetra" id="objetosPorLetra" >
+
+
+
+
+            </div>
+
+            <div class="parteDeBaixo">
+                <p class="letrasDaParteDeBaixo" id="setaEsquerda" onclick="pagina1()"><</p>
+                        <p class="letrasDaParteDeBaixo" id="pag1" onclick="pagina1()">1</p>
+                        <p class="letrasDaParteDeBaixo" id="pag2" onclick="pagina2()">2</p>
+                        <p class="letrasDaParteDeBaixo" id="setaDireita" onclick="pagina2()">></p>
+            </div>
+        </div>
+            <div class="partePrincipalWiki">
+
+            </div>
+
+            <div class="ladoWiki">
+                <div class="barraDePesquisa">
+                    <img src="/src/img/Anotação 2024-04-01 085714.png" class="imagemBarraDePesquisa" alt="Finn e jake 2">
+                    <a href="/Pesquisa/index (1).html" id="linkDaPesquisa"><input placeholder="Pesquisar" class="pesquisa" type="search"></a>
+                </div>
+                <div class="personagensPrincipaisDoLado">
+                    <h2 class="tituloDoLado">Personagens Principais</h2>
+                    <div class="locaisDosPersonagens" id="localDoPersonagemFinn">
+                        <img src="/src/img/Happyfinn.jpg" class="imageDosPersonagensDoLado" alt="Finn Feliz">
+                        <p>Finn</p>
+                    </div>
+
+                    <div class="locaisDosPersonagens" id="localDoPersonagemJake">
+                        <img src="/src/img/jake.jpg" class="imageDosPersonagensDoLado" alt="jake">
+                        <p>jake</p>
+                    </div>
+
+                    <div class="locaisDosPersonagens" id="localDoPersonagemJujuba">
+                        <img src="/src/img/Jujuba.jpg" class="imageDosPersonagensDoLado" alt="Jujuba">
+                        <p>Jujuba</p>
+                    </div>
+                    <div class="locaisDosPersonagens" id="localDoPersonagemJujuba">
+                        <img src="/src/img/Jujuba.jpg" class="imageDosPersonagensDoLado" alt="Jujuba">
+                        <p>Jujuba</p>
+                    </div>
+
+                    <div class="locaisDosPersonagens" id="localDoPersonagemJujuba">
+                        <img src="/src/img/Jujuba.jpg" class="imageDosPersonagensDoLado" alt="Jujuba">
+                        <p>Jujuba</p>
+                    </div>
+
+                </div>
+                <img src="/src/img/Banan_Guard.webp" id="finnJakeBmo" alt="Finn e jake 3">
+            </div>
+        </div>
+    </div>
+
+    <script src="objetos.js"></script>
+</body>
+
+</html>

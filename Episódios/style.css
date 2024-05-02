@@ -1,0 +1,1501 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    cursor: url(/src/img/Finn_Sword_verticalp.png), default;
+}
+
+body {
+    background: url(/src/img/reino\ Gelado\ fundo.png)fixed no-repeat;
+    position: absolute;
+    background-size: cover;
+
+}
+
+#lugarDaPagina{
+    display: none;
+}
+
+.barraEspada {
+
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 19.65%;
+}
+
+#goldensword {
+    position: absolute;
+    height: 95%;
+    top: 3%;
+    z-index: -1;
+}
+
+#todaEssaMerda {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logoEWiki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logoHoraDeAventura {
+
+    width: 100%;
+
+}
+
+#wiki {
+
+    width: 38%;
+
+}
+
+#localDoTextoDaSelecao {
+    width: 68%;
+    height: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.localParteSelecao {
+    opacity: 0.5;
+    height: inherit;
+    width: inherit;
+    background: #D9D9D9;
+    border: solid 3px black;
+    position: absolute;
+    z-index: -1;
+}
+
+.textoParteSelecao {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95%;
+}
+
+a {
+    text-decoration: none;
+    color: #010101;
+    cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    height: 0.4%;
+    border: none;
+    margin-bottom: 1%;
+}
+
+li {
+    margin-left: 5%;
+    list-style-type: none;
+    font-size: 20px;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+a:hover {
+    color: white;
+}
+
+.tituloSelecao {
+    color: black;
+    margin-left: 0;
+    font-weight: 800;
+}
+.linkParaAsPaginas {
+    color: #65C77B;
+}
+
+
+
+#episodioTitulo{
+    color: white;
+ 
+    cursor: url(/src/img/Finn_Sword_verticalp.png), default;
+}
+
+
+
+.principalWiki {
+    display: block flex;
+    margin: 2% 0% 2% 19%;
+    width: 80%;
+}
+
+.parteWiki {
+    display: flex;
+    width: 100%;
+}
+
+#osDaEsquerda{
+    width: 85%;
+}
+
+.partePrincipalWiki {
+
+    background-color: #576C7C;
+    width: 80%;
+    height: -webkit-fill-available;
+    margin-bottom: 2%;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.partePrincipalWikiCima {
+    opacity: 1; 
+    padding-bottom: 0.5%;
+ 
+    background-color: #0E4965;
+}
+
+.imageWikiCima {
+
+    margin-left: 4%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 60%;
+}
+
+#imageMarceline {
+    width: 20%;
+}
+
+#logoHoraDeAventura {
+    width: 67%;
+    margin-left: 28%;
+}
+
+.tituloDaPagina {
+    margin-left: 3%;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 1%;
+}
+
+.selecaoDeTemporada {
+        
+      
+        margin-bottom: 2%;
+        padding: 1%;
+        background-color: #49B59B;
+}
+
+
+#primeiroFundoDasTemporadas {
+    padding-bottom: 0;
+}
+
+.fundoDasTemporadas {
+    display: flex;
+    background-color: #3F6E6A;
+
+    padding: 1% 0%;
+}
+
+.temporada {
+    margin-left: 4%;
+    font-size: 20px;
+    color: #65C77B;
+    font-weight: 700;
+}
+
+.infomacoesDaTemporada {
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+#piloto {
+     
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.tituloDaTemporada {
+    color: #99AEA8;
+
+}
+
+.linhaDaTemporada {
+    border: #222222;
+    height: 2px;
+    color: #222222;
+    background-color: #222222;
+    width: 98%;
+}
+
+
+.episodiosDaTemporada {
+    border-spacing: 0px;
+    z-index: 1;
+    height: 20%;
+    width: 98.2%;
+}
+
+.titulosDasInformacoes {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 800;
+
+    display: flex;
+    width: 100%;
+}
+
+.tituloDoTittlecard {
+    width: 16.6%;
+    height: 20%;
+    padding: 0.2%;
+    padding: 1% 0%;
+    background-color: #0E4965;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloDoEp {
+    width: 4.4%;
+    background-color: #576C7C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0%;
+}
+
+.tituloDoTituloESinopse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52.8%;
+    background-color: #1F97C3;
+    padding: 1% 0%;
+}
+
+.tituloDaDataDeLançamento {
+    display: flex;
+    width: 26.2%;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E4965;
+    padding: 1% 0%;
+}
+
+.infomacoesEpisodios {
+    border-top: #000000 solid 8px;
+    display: flex;
+}
+
+#infomacoesDoPiloto {
+    display: flex;
+}
+
+.localDoTittlecard {
+    width: 18%;
+    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E4965;
+}
+
+
+.imageDoTittlecard {
+    width: 100%;
+
+}
+
+.numeroDoEp {
+    width: 5%;
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    background-color: #576C7C;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.tituloESinopse {
+    width: 60%;
+    padding: 0.4%;
+    background-color: #1F97C3;
+}
+
+#tituloESinopseDaSinopse {
+    width: 60%;
+    padding: 0.4%;
+    background-color: #1F97C3;
+}
+
+
+
+.divDoTituloESinopse {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloDoEpisodio {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+.textoDaSinopse {
+    text-align: center;
+    color: #0E4965;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.dataDeLançamento {
+    width: 30%;
+    color: #1F97C3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #0E4965;
+}
+
+#dataDeLançamentoDoPiloto {
+    width: 30%;
+    color: #1F97C3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #0E4965;
+}
+
+.linkParaEp{
+    width: 100%;
+    color: #ffffff;
+}
+
+.linkParaTitulo{
+    color: #ffffff;
+}
+
+
+
+
+
+.ladoWiki {
+    background-color: #0E4965;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barraDePesquisa {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagemBarraDePesquisa {
+    width: 80%;
+    transform: scaleX(-1);
+}
+
+#linkDaPesquisa{
+    position: absolute;
+    width: 11%;
+    margin-top: 1%;
+    height: 2.2%;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.pesquisa {
+    position: absolute;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    padding-left: 8%;
+    background-color: black;
+    border: #1C1D1F solid 1px;
+    color: #FFD686;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.pesquisa::placeholder{
+    text-align: center;
+    color: #FFD686;
+}
+
+.imageDoladoNoTopo {
+    margin-top: 6%;
+    width: 80%;
+    z-index: 1;
+    transform: scaleX(-1);
+}
+
+.personagensPrincipaisDoLado {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tituloDoLado {
+    color: #1AA4D7;
+    font-size: 18px;
+    font-weight: 800;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.locaisDosPersonagens {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+    margin-top: 6%;
+    font-weight: 600;
+}
+
+#localDoPersonagemFinn {
+    color: #ffffff;
+    background-color: #0E6CBA;
+}
+
+#localDoPersonagemJake {
+    color: #FFB826;
+    background-color: black;
+}
+
+#localDoPersonagemJujuba {
+    color: #F4B1CE;
+    background-color: #82428C;
+}
+
+.imageDosPersonagensDoLado {
+    width: 100%;
+}
+
+#bmo {
+    width: 100%;
+
+}
+
+/*
+
+@media (max-Width: 1700px){
+    .ladoWiki{
+        z-index: 2;
+    }
+
+    .tituloDoLado {
+        text-align: center;
+    }
+
+    .locaisDosPersonagens{
+        
+        padding-bottom: 1.4%;
+    }
+
+    #localDoPersonagemGunter{
+        padding-bottom: 4%;
+    }
+    #localDoPersonagemReiGelado{
+        padding-bottom: 4%;
+    }
+}
+
+@media (max-width: 1595px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1238px;
+        height: 1766px;
+    }
+
+    .partePrincipalWikiCima{
+        height: 17%;
+    }
+
+    .selecaoDeTemporada {
+        top: 13.9%;
+    }
+
+    .temporada {
+        margin-left: 6%;
+        font-size: 19px;
+    }
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+
+    .locaisDosPersonagens{
+        font-size: 20px;
+        padding-bottom: 1.4%;
+    }
+}
+
+@media (max-width: 1555px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1208px;
+        height: 1766px;
+    }
+
+    .partePrincipalWikiCima{
+        height: 17%;
+    }
+
+    
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+
+    .locaisDosPersonagens{
+        font-size: 20px;
+        padding-bottom: 1.4%;
+    }
+}
+
+@media (max-width: 1515px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1178px;
+        height: 1746px;
+    }
+
+    .partePrincipalWikiCima{
+        height: 17%;
+    }
+
+    .selecaoDeTemporada {
+        top: 13.2%;
+    }
+
+    .temporada {
+        margin-left: 5.5%;
+        font-size: 19px;
+    }
+
+    #piloto{
+        top: 20.4%;
+    }
+
+    .infomacoesDaTemporada{
+        top: 32.2%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+
+    .locaisDosPersonagens{
+        font-size: 20px;
+        padding-bottom: 1.4%;
+    }
+}
+
+@media (max-width: 1475px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1144px;
+        height: 1726px;
+    }
+
+    .partePrincipalWikiCima{
+        height: 17%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1435px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1114px;
+        height: 1726px;
+    }
+
+    .partePrincipalWikiCima{
+        height: 17%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1395px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1082px;
+        height: 1706px;
+    }
+
+    .selecaoDeTemporada {
+        top: 13.2%;
+    }
+
+    .temporada {
+        margin-left: 5.1%;
+        font-size: 18px;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1355px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1050px;
+        
+    }
+
+    .tituloDaPagina {
+        font-size: 37px;
+    }
+
+    .selecaoDeTemporada {
+        top: 13%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1325px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 1018px;
+        
+    }
+
+    .partePrincipalWikiCima{
+        height: 15%;
+    }
+
+    .selecaoDeTemporada {
+        top: 12%;
+    }
+
+    
+
+    .temporada {
+        margin-left: 4.9%;
+        font-size: 17px;
+    }
+    
+
+    #piloto{
+        top: 18.7%;
+    }
+
+    .infomacoesDaTemporada{
+        top: 30.2%;
+    }
+
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1285px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 988px;
+        
+    }
+
+    
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1245px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 958px;
+        
+    }
+
+    
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 1208px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 928px;
+        height: 1716px;
+    }
+
+    .partePrincipalWikiCima{
+        height: 13%;
+    }
+
+    .selecaoDeTemporada{
+        top: 11%;
+    }
+
+    .temporada{
+        margin-left: 4.7%;
+        font-size: 16px;
+    }
+
+    #piloto{
+        top: 17%;
+    }
+
+    .infomacoesDaTemporada{
+        top: 28%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1170px){
+    
+
+    .principalWiki{
+        margin-left: 24%;
+        width: 908px;
+        
+    }
+
+    .temporada{
+        margin-left: 4.6%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1140px){
+    
+
+
+    .principalWiki{
+        margin-left: 26%;
+        width: 863px;
+        height: 1600px;
+    }
+
+    .selecaoDeTemporada{
+        top: 11.5%;
+    }
+
+    .temporada{
+        margin-left: 4.5%;
+        font-size: 15px;
+    }
+
+    #piloto{
+        top: 18%;
+    }
+
+    .infomacoesDaTemporada{
+        top: 29%;
+    }
+
+    .tituloDoEpisodio {
+        font-size: 18px;
+    }
+
+    .numeroDoEp {
+        font-size: 20px;
+    }
+
+    .textoDaSinopse, .titulosDasInformacoes, #dataDeLançamentoDoPiloto, .dataDeLançamento{
+        font-size: 16px;
+    }
+
+
+    
+}
+
+@media(max-width: 1107px){    
+
+    .principalWiki{
+        margin-left: 28%;
+        width: 830px;
+        
+    }
+
+
+
+}
+
+@media(max-width: 1080px){
+    .principalWiki{
+        margin-left: 28%;
+        width: 810px;
+        height: 1620px;
+    }
+
+    .temporada{
+        margin-left: 4.5%;
+        font-size: 14px;
+    }
+
+    #piloto{
+        top: 17.5%;
+    }
+
+    .infomacoesDaTemporada{
+        top: 29.5%;
+    }
+
+    
+}
+
+@media(max-width: 1060px){
+    .principalWiki{
+        margin-left: 28%;
+        width: 800px;
+        
+    }
+
+}
+
+
+@media (max-width: 1043px){
+    
+
+    .principalWiki{
+        margin-left: 31%;
+        width: 760px;
+        height: 1480px;
+    }
+
+    .tituloDaPagina {
+        font-size: 32px;
+    }
+
+    .selecaoDeTemporada{
+        top: 11%;
+    }
+
+    .temporada{
+        margin-left: 4.5%;
+        font-size: 13px;
+    }
+
+    #piloto{
+        top: 16.5%;
+    }
+
+    .infomacoesDaTemporada{
+        top: 28.5%;
+    }
+
+    .tituloDaTemporada {
+        font-size: 21px;
+    }
+
+    .tituloDoEpisodio {
+        font-size: 17px;
+    }
+
+    .numeroDoEp {
+        font-size: 19px;
+    }
+
+    .textoDaSinopse, .titulosDasInformacoes, #dataDeLançamentoDoPiloto, .dataDeLançamento{
+        font-size: 15px;
+    }
+
+    .tituloDoLado{
+        font-size: 17px;
+    }
+
+    
+}
+
+@media (max-width: 1014px){
+    
+
+    .principalWiki{
+        margin-left: 32%;
+        width: 730px;
+        
+    }
+
+    .titulosDasInformacoes{
+        font-size: 14px;
+    }
+}
+*/
+
+
+@media(max-width:1168px){
+    .temporada {
+        margin-left: 2%;
+        font-size: 20px;
+    }
+
+    .tituloDaPagina {
+        font-size: 33px;
+        margin-left: 2%;
+    }
+
+    .tituloDoEpisodio{
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .textoDaSinopse{
+        font-size: 17px;
+    }
+
+    .dataDeLançamento, #dataDeLançamentoDoPiloto{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .titulosDasInformacoes{
+        font-size: 15px;
+    }
+
+    .numeroDoEp{
+        font-size: 20px;
+    }
+
+    .tituloDoLado{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 770px){
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .barraEspada {
+        display: none;
+    }
+
+    #lugarDaPagina {
+        margin-top: 0.5%;
+        display: flex;
+        width: 98%;
+        align-items: center;
+        margin-bottom: 0.5%;
+    }
+
+    #espadaDeLado {
+        transform: rotate(90deg);
+        width: 5%;
+        position: absolute;
+        right: 16%;
+        z-index: -1;
+    }
+
+    #primeiraLista,
+    #segundaLista,
+    #terceiraLista {
+        width: 26.5%;
+        position: absolute;
+        border: solid;
+    }
+
+    #primeiraLista{
+        
+        left: 1%;
+        font-size: 18px;
+
+    }
+
+    #segundaLista{
+       
+        left: 27.8%;
+        z-index: 2;
+       
+    }
+
+    #terceiraLista{
+        
+        left: 54.69%;
+        z-index: 2;
+    }
+    .paginasMenores {
+        width: 27%;
+        border: solid;
+        border-left: 0;
+        
+        text-align: center;
+        background-color: #0E4965;
+    }
+
+    
+    .paginasMenores:hover{
+        background-color: #0E4965;
+    }
+    #idDaPag{
+        border-left: solid;
+    }
+
+    .listasPaginasMenoresTitulo{
+        font-size: 19px;
+        padding: 5% 0;
+        margin-left: 0;
+       
+    }
+    
+    .listasPaginasMenoresTitulo:hover{
+        cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+        background-color: #0E4965;
+       
+    }
+
+    .listasPaginasMenores {
+        display: none;
+        margin: 0;
+        background-color: #576C7C;
+        padding: 1% 0;
+        padding-left: 2%;
+        border-top: solid;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .principalWiki {
+        width: 98%;
+        margin: 1%;
+    }
+
+    .partePrincipalWiki {
+        width: 88%;
+        height: -webkit-fill-available;
+        margin-bottom: 1%;
+    }
+
+    
+
+    #logoHoraDeAventura {
+        margin-left: 27%;
+        margin-top: 3%;
+    }
+
+    .temporada {
+        margin-left: 2%;
+        font-size: 16px;
+    }
+
+    .tituloDaPagina {
+        font-size: 25px;
+        margin-left: 2%;
+    }
+
+    .tituloDoEpisodio{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .textoDaSinopse{
+        font-size: 15px;
+    }
+
+    .dataDeLançamento, #dataDeLançamentoDoPiloto{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .titulosDasInformacoes{
+        font-size: 13px;
+    }
+
+    .numeroDoEp{
+        font-size: 20px;
+    }
+
+    .tituloDoLado{
+        font-size: 13.5px;
+    }
+
+    #localDoPersonagemGunter, #localDoPersonagemReiGelado{
+        padding-bottom: 7%;
+        
+    }
+    #linkDaPesquisa{
+        width: 13%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 14px;
+    }
+    .pesquisa{
+        font-size: 11px;
+    }
+    .letra{
+        font-size: 19px;
+    }
+    .parteDeBaixo{
+        font-size: 20px;
+    }
+
+    .tituloDaTemporada{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:720px){
+    .temporada {
+        margin-left: 2%;
+        font-size: 14px;
+    }
+
+    .tituloDaPagina {
+        font-size: 25px;
+        margin-left: 2%;
+    }
+
+    .tituloDoEpisodio{
+        font-size: 16px;
+    }
+
+    .textoDaSinopse{
+        font-size: 14px;
+    }
+
+    .dataDeLançamento, #dataDeLançamentoDoPiloto{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .titulosDasInformacoes{
+        font-size: 11px;
+    }
+
+    .numeroDoEp{
+        font-size: 19px;
+    }
+}
+
+@media (max-width:600px){
+
+    .letra{
+        font-size: 18px;
+    }
+    .tituloDaPagina {
+        font-size: 24px;
+        margin-left: 2%;
+    }
+
+
+    .letraParaPesquisa{
+        font-size: 15.5px;
+    }
+    .tituloDoLado{
+        font-size: 11px;
+    }
+
+    .temporada {
+        margin-left: 2%;
+        font-size: 12px;
+    }
+
+    .tituloDaPagina {
+        font-size: 21px;
+        margin-left: 2%;
+    }
+
+    .tituloDoEpisodio{
+        font-size: 15px;
+    }
+
+    .textoDaSinopse{
+        font-size: 13px;
+    }
+
+    .dataDeLançamento, #dataDeLançamentoDoPiloto{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .titulosDasInformacoes{
+        font-size: 10px;
+    }
+
+    .numeroDoEp{
+        font-size: 19px;
+    }
+
+    #localDoPersonagemGunter, #localDoPersonagemReiGelado{
+        padding-bottom: 9%;
+        
+    }
+    #linkDaPesquisa{
+        width: 13%;
+    }
+    
+    .locaisDosPersonagens{
+        font-size: 12px;
+    }
+    .pesquisa{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 543px){
+    .listasPaginasMenoresTitulo{
+        font-size: 17px; 
+    }
+
+    .listasPaginasMenores {
+        
+        font-size: 16px;
+       
+    }
+    .temporada {
+        margin-left: 1%;
+        font-size: 12px;
+    }
+    .titulosDasInformacoes{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 500px){
+    .tituloDaTemporada{
+        font-size: 18px;
+    }
+    .temporada{
+        margin-left: 2%;
+    }
+    .dataDeLançamento, #dataDeLançamentoDoPiloto{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .titulosDasInformacoes{
+        font-size: 10px;
+    }
+    #lugarDaPagina{
+        margin-bottom: 1%;
+    }
+    
+
+    .paginasMenores{
+        width: 42%;
+    }
+
+    #idDaPag{
+        width: 39%;
+    }
+
+    #paginasOutrasLi{
+        display: none;
+    }
+
+    #primeiraLista, #segundaLista2{
+        width: 38.4%;
+        z-index: 2;
+    }
+
+    #segundaLista2{
+        width: 41.2%;
+        left: 39.87%;
+
+    }
+
+    .partePrincipalWiki{
+        width: 98%;
+    }
+
+    #osDaEsquerda{
+        width: 100%;
+    }
+    .ladoWiki{
+        width: 0%;
+        display: none;
+    }
+
+    tr{
+        font-size: 12px;
+    }
+
+    .objetosPorLetra{
+        margin-right: 2%;
+    }
+
+    .letraParaPesquisa{
+        width: 98%;
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 470px){
+    .temporada{
+        margin-left: 1%;
+    }
+
+    .titulosDasInformacoes{
+        font-size: 9px;
+    }
+}
+@media (max-width: 406px){
+    .nomeDoObjetos{
+        font-size: 7px;
+    }
+    .temporada{
+        margin-left: 1%;
+        font-size: 11px;
+    }
+
+    .titulosDasInformacoes{
+        font-size: 8px;
+    }
+}
+@media (max-height: 910px) {
+
+
+    
+    
+    li {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-height: 850px) {
+
+
+    li {
+        font-size: 17.5px;
+    }
+
+
+
+
+}
+
+@media (max-height: 750px) {
+
+
+
+    li {
+        font-size: 16px;
+    }
+
+
+}
+
+@media (max-height: 680px) {
+    #logoEWiki {
+        width: 90%;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-height: 600px) {
+    #logoEWiki {
+        width: 88%;
+    }
+
+    li {
+        font-size: 13.5px;
+    }
+}
+
+@media (max-height: 540px) {
+    #logoEWiki {
+        width: 87%;
+    }
+
+    li {
+        font-size: 12px;
+    }
+}

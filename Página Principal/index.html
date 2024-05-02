@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Hora de Aventura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/src/img/Adventure-time-background-paintings-1.webp" type="image/x-icon">
+
+</head>
+
+<body id="corpo">
+    <!-- Tablet e Celular-->
+    <div id="lugarDaPagina">
+        <ul class="paginasMenores" id="idDaPag">
+            <li class="listasPaginasMenoresTitulo" id="idPagPag" onclick="abrirEFecharPagina()">Página</li>
+            <ul id="primeiraLista">
+                <li class="listasPaginasMenores" id="idPagin"><a href="/Página Principal/index.html">Home</a></li>
+                <li class="listasPaginasMenores" id="idPersonagens"><a
+                        href="/Personagens/personagens.html">Personagens</a></li>
+                <li class="listasPaginasMenores" id="idRPG"><a href="/RPG/rpg.html">RPG</a></li>
+                <li class="listasPaginasMenores" id="idObjetos"><a href="/Objetos/objetos.html">Objetos</a></li>
+                <li class="listasPaginasMenores" id="idEpisodios"><a href="/Episódios/episodios.html">Episódios</a></li>
+            </ul>
+        </ul>
+        <ul class="paginasMenores">
+            <li class="listasPaginasMenoresTitulo" id="idlinksOfi" onclick="abrirEFecharLinksOficiais()">Links Oficiais
+            </li>
+            <ul id="segundaLista">
+                <li class="listasPaginasMenores" id="idSiteOficial"><a
+                        href="https://www.cartoonnetwork.com.br/show/hora-de-aventura" target="_blank">Site
+                        oficial</a>
+                </li>
+                <li class="listasPaginasMenores" id="idMercadoriaOficial"><a
+                        href="https://www.cnshop.com.br/colecoes/hora-de-aventura" target="_blank"
+                        rel="noopener noreferrer">Mercadoria oficial</a></li>
+                <li class="listasPaginasMenores" id="idReddit"><a href="https://www.reddit.com/r/adventuretime/"
+                        target="_blank">Reddit</a></li>
+                <li class="listasPaginasMenores" id="idFrederatorStudios"><a href="https://frederator.com/"
+                        target="_blank">Frederator
+                        Studios</a>
+                </li>
+            </ul>
+        </ul>
+        <ul class="paginasMenores" id="paginasOutrasLi">
+            <li class="listasPaginasMenoresTitulo" id="idOutrasLi" onclick="abrirEFecharOutraslínguas()">Outras línguas
+            </li>
+            <ul id="terceiraLista">
+                <li class="listasPaginasMenores" id="idEnglish">English</li>
+                <li class="listasPaginasMenores" id="idPortugues">Português</li>
+            </ul>
+        </ul>
+        <img src="/src/img/GoldenswordLogo.png" id="espadaDeLado" alt="Espada Finn">
+    </div>
+    <!-- Tablet e Celular -->
+
+
+    <!-- PC e Notebook -->
+    <div class="barraEspada">
+
+        <img src="/src/img/GoldenswordLogo.png" alt="Finn_Sword_vertical" id="goldensword">
+        <div id="todaEssaMerda">
+            <div id="logoEWiki">
+                <img src="/src/img/logo hora de aventura - Copia.png" alt="logo hora de aventura"
+                    class="logoHoraDeAventura" width="25%">
+                <img src="/src/img/wiki.png" alt="wiki" id="wiki">
+            </div>
+            <div id="localDoTextoDaSelecao">
+                <div class="localParteSelecao">
+
+                </div>
+
+                <div class="textoParteSelecao">
+                    <ul>
+                        <li class="tituloSelecao" id="nomePaginaPrin">Página principal</li>
+                <hr>
+                <li><a href="/Personagens/personagens.html" id="nomePersonagens">Personagens</a></li>
+                        <li><a href="/RPG/rpg.html" id="rpgTitulo">RPG</a></li>
+                        <li><a href="/Objetos/objetos.html" id="nomeObjetos">Objetos</a></li>
+                <li><a href="/Episódios/episodios.html" id="nomeEpisodios">Episódios</a></li>
+
+                    </ul>
+                    <ul>
+                        <li class="tituloSelecao">Links Oficiais</li>
+                        <hr>
+                        <li><a href="https://www.cartoonnetwork.com.br/show/hora-de-aventura" target="_blank">Site
+                                oficial</a>
+                        </li>
+                        <li><a href="https://www.cnshop.com.br/colecoes/hora-de-aventura" target="_blank"
+                                rel="noopener noreferrer">Mercadoria oficial</a></li>
+                        <li><a href="https://www.reddit.com/r/adventuretime/" target="_blank">Reddit</a></li>
+                        <li><a href="https://frederator.com/" target="_blank">Frederator Studios</a></li>
+                    </ul>
+                    <ul>
+                        <li class="tituloSelecao" id="outrasLinguas">Outras línguas</li>
+                <hr>
+                <li onclick="english()"><a href="#corpo" id="englishPf">English</a></li>
+                <li onclick="portugues()"><a href="#corpo" class="linguasDif" id="portuguesPf">Português</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="principalWiki" onclick="fecharTudo()">
+        <div class="parteWiki">
+            <div id="osDaEsquerda">
+                <div class="partePrincipalWikiCima" id="partePrincipalWikiCima">
+                    <div class="imageWikiCima">
+                        <img src="/src/img/Finn e jake.png" id="imageFinnEJake" alt="Finn e Jake">
+                        <img src="/src/img/logo hora de aventura.png" id="logoHoraDeAventura"
+                            alt="logo hora de aventura">
+                    </div>
+                    <h1 class="tituloDaPagina" id="paginaPrincipal">Página principal</h1>
+                    <p class="textoDotituloDaPagina">Bem-vindo à Wiki de Hora de Aventura! <br><br>
+
+
+
+
+
+
+                        Embarque conosco numa jornada fascinante pelo mágico e pós-apocalíptico mundo de Ooo, onde a
+                        diversão e a aventura entrelaçam-se em histórias inesquecíveis! Aqui, você encontrará a sua
+                        fonte
+                        definitiva para tudo relacionado a Hora de Aventura, a série de animação que transcendeu
+                        fronteiras
+                        e cativou corações ao redor do mundo.
+
+                    </p>
+
+
+                </div>
+                <h2 class="subTituloWiki">Sobre Hora de Aventura</h2>
+                <p class="textoWiki">Hora de Aventura, criada por Pendleton Ward, é uma jornada épica que segue as
+                    incríveis aventuras de Finn, o Humano, e Jake, o Cão. Juntos, eles enfrentam desafios
+                    emocionantes,
+                    exploram terras mágicas e interagem com uma infinidade de personagens únicos. A série, conhecida
+                    por
+                    sua narrativa envolvente, comédia peculiar e temas profundos, transcendeu as expectativas,
+                    tornando-se um fenômeno cultural.</p>
+
+                <h2 class="subTituloWiki">Navegue Pela Wiki</h2>
+                <hr class="linhaSubTituloWiki">
+                <p class="textoWiki">Na nossa Wiki, você encontrará uma vasta coleção de informações sobre
+                    personagens,
+                    episódios, locais e muito mais. Seja você um fã de longa data ou um novo aventureiro em Ooo, há
+                    algo
+                    para todos. Explore as páginas dedicadas aos seus personagens favoritos, descubra os enredos
+                    fascinantes dos episódios e mergulhe nos segredos ocultos deste mundo extraordinário.</p>
+
+                <h3 class="subTituloDoSubTituloWiki">Personagens</h3>
+                <p class="subTextoWiki">Explore páginas dedicadas aos fascinantes habitantes de Ooo. Desde Finn, o
+                    Humano, e Jake, o Cão, até personagens secundários e vilões intrigantes, descubra as histórias,
+                    desenvolvimentos e curiosidades por trás de cada um.</p>
+
+                <h3 class="subTituloDoSubTituloWiki">Objetos</h3>
+                <p class="subTextoWiki">Mergulhe nas descrições e origens de objetos mágicos que desempenham papéis
+                    cruciais na trama. Desde a Espada de Grôl, a Coroa de Gunters até o Enquirídio, descubra como esses
+                    artefatos mágicos influenciam o curso das aventuras em Ooo.
+                </p>
+
+                <h3 class="subTituloDoSubTituloWiki">RPG</h3>
+                <p class="subTextoWiki">Para os fãs que desejam levar a magia de Hora de Aventura para suas mesas de
+                    jogo, oferecemos informações detalhadas sobre a adaptação para RPG de mesa. Descubra regras,
+                    cenários, e dicas para incorporar a essência única de Ooo em suas próprias sessões de jogo.
+                </p>
+
+                <h3 class="subTituloDoSubTituloWiki">Episódios</h3>
+                <p class="subTextoWiki">Navegue por uma lista abrangente de episódios, desde os emocionantes inícios até
+                    os finais surpreendentes. Cada página fornece uma visão aprofundada dos enredos, desenvolvimentos de
+                    personagens e momentos marcantes que definem a rica narrativa de Hora de Aventura.
+                </p>
+
+                <div class="parteDoConteudo">
+                    <div class="divDaParteDoConteudo" id="divAGalera">
+                        <a href="/Personagens/personagens.html" class="linkParaAsPaginas">
+                            <img src="/src/img/A galera.jpg" id="aGalera" class="imageDaParteDoConteudo"
+                                alt="A galera de hora de aventura">
+                            <p class="textoDaParteDoConteudo"><a href="/Personagens/personagens.html"
+                                    class="linkParaAsPaginas">Personagens</a></p>
+                        </a>
+                    </div>
+                    <div class="divDaParteDoConteudo">
+                        <a href="/Objetos/objetos.html">
+                            <img src="/src/img/espadas do finn.jpg" class="imageDaParteDoConteudo"
+                                alt="espadas do finn">
+                            <p class="textoDaParteDoConteudo"><a href="/Objetos/objetos.html"
+                                    class="linkParaAsPaginas">Objetos</a></p>
+                        </a>
+                    </div>
+                    <div class="divDaParteDoConteudo" id="divLivroDeRpg">
+                        <a href="/RPG/rpg.html" class="linkParaAsPaginas">
+                            <img src="/src/img/livro de rpg.png" id="livroDeRpg" class="imageDaParteDoConteudo"
+                                alt="livro de rpg">
+                            <p class="textoDaParteDoConteudo"><a href="/RPG/rpg.html" class="linkParaAsPaginas">RPG</a>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="divDaParteDoConteudo">
+                        <a href="/Episódios/episodios.html" class="linkParaAsPaginas">
+                            <img src="/src/img/piloto.webp" class="imageDaParteDoConteudo" alt="Episódios">
+                            <p class="textoDaParteDoConteudo"><a href="/Episódios/episodios.html"
+                                    class="linkParaAsPaginas">Episódios</p>
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <div class="parteDeContribuir">
+                    <img src="/src/img/finn dinheiro.jpg" id="finnDinheiro" alt="finn dinheiro">
+                    <div>
+                        <h2 class="tituloContribuir">Como Contribuir</h2>
+                        <p class="textContribuir">Quer fazer parte da construção deste reino de conhecimento? Sinta-se à
+                            vontade para
+                            contribuir! Adoramos receber informações novas, teorias emocionantes e detalhes
+                            interessantes sobre Hora de Aventura. Juntos, podemos criar uma fonte abrangente e
+                            envolvente para todos os fãs.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+            </div>
+            <div class="partePrincipalWiki">
+
+            </div>
+       
+
+        <div class="ladoWiki">
+            <div class="barraDePesquisa">
+
+                <img class="imagemBarraDePesquisa" src="/src/img/Finn e jake 2.png" alt="logobarra">
+                <a href="/Pesquisa/index (1).html" id="linkDaPesquisa"><input id="pesquisadinha" placeholder="Pesquisar"
+                        class="pesquisa" type="search"></a>
+
+            </div>
+            <!--
+            <img src="/src/img/Finn e jake 2.png" class="imageDoladoNoTopo" alt="Finn e jake 2">-->
+            <div class="personagensPrincipaisDoLado" id="personagensLado">
+                <h2 class="tituloDoLado" id="personagensPrinc">Personagens Principais</h2>
+
+            </div>
+            <img src="/src/img/Finn e jake 3.png" id="finnJakeBmo" alt="Finn e jake 3">
+        </div> </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

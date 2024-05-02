@@ -1,0 +1,869 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    cursor: url(/src/img/Night_swordp.png), default;
+}
+
+body {
+    background: url(/src/img/finn-the-human-jake-el-perro-hora-de-aventura-adventure-time-wallpaper-preview.jpg) fixed no-repeat;
+    position: absolute;
+    background-size: cover;
+}
+
+#lugarDaPagina {
+    display: none;
+}
+
+.barraEspada {
+
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 19.65%;
+}
+
+#goldensword {
+    position: absolute;
+    height: 95%;
+    top: 3%;
+    z-index: -1;
+}
+
+#todaEssaMerda {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logoEWiki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logoHoraDeAventura {
+
+    width: 100%;
+
+}
+
+#wiki {
+
+    width: 38%;
+
+}
+
+#localDoTextoDaSelecao {
+    width: 68%;
+    height: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.localParteSelecao {
+    opacity: 0.5;
+    height: inherit;
+    width: inherit;
+    background: #D9D9D9;
+    border: solid 3px black;
+    position: absolute;
+    z-index: -1;
+}
+
+.textoParteSelecao {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95%;
+}
+
+a {
+    text-decoration: none;
+    color: #010101;
+    cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    height: 0.4%;
+    border: none;
+    margin-bottom: 1%;
+}
+
+li {
+    margin-left: 5%;
+    list-style-type: none;
+    font-size: 20px;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+a:hover {
+    color: white;
+}
+
+.tituloSelecao {
+    color: black;
+    margin-left: 0;
+    font-weight: 800;
+}
+.linkParaAsPaginas {
+    color: #65C77B;
+}
+
+.principalWiki {
+    display: block flex;
+    margin: 2% 0% 2% 18%;
+    width: 81%;
+}
+
+.lugalArumado{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.osDaEsquerda{
+    width: 100%;
+    height: 100%;
+}
+
+.parteWiki {
+    width: 100%;
+}
+
+.partePrincipalWiki {
+
+    background-color: #AEA0D0;
+    width: 80%;
+    position: absolute;
+    height: 90%;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.partePrincipalWikiCima {
+    opacity: 1;
+    
+    height: 24.9%;
+    z-index: 1;
+    background-color: #734CFF;
+}
+
+.imageWikiCima {
+    
+    margin-left: 2%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 60%;
+}
+
+#imageCanelinha{
+    width: 18%;
+    margin-left: 2.5%;
+
+}
+
+#logoHoraDeAventura {
+    width: 67%;
+    margin-left: 26.8%;
+}
+
+.tituloDaPagina {
+    margin-left: 3%;
+    font-size: 40px;
+    color: #ffffff;
+
+}
+
+.localDaInformacaoDoEp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    
+}
+
+.imageComAsInformacoes{
+    display: flex;
+    width: 42%;
+    height: 100%;
+    font-weight: 600;
+    background-color: #AEA0D0;
+    padding: 0.5% 0.4% 0% 0.4%;
+    color: #ffffff;
+    font-size: 16.5px;
+    
+}
+
+.divDasImagem{
+    background-color: #734CFF;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #734CFF solid 5px;
+}
+
+.imageDoIten{
+    
+    width: 95%;
+    height: 95%;
+   /* width: 45%;
+    transform: rotate(127deg); */
+    
+    
+}
+
+.tabelaComAsInformacoes{
+    width: 60%;
+    border-collapse: collapse;
+    
+}
+
+
+
+.linhaDaTabelaCorEscura{
+    width: 100%;
+    background-color: #734CFF;
+}
+
+.linhaDaTabelaCorClara{
+    width: 100%;
+    background-color: #AEA0D0;
+}
+
+.linhaDaTemporada{
+    width: 100%;
+    
+}
+
+.TemporadaEEpisodios{
+    width: 100%;
+}
+
+.rotuloDaTabela{
+    width: 35%;
+    margin-bottom: 1%;
+}
+
+.nomeDoIten{
+    color: #ffffff;
+    background-color: #AEA0D0;
+    width: 42.8%;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.subTituloWiki {
+    font-weight: 700;
+    color: black;
+    margin-top: 1.5%;
+    margin-left: 3%;
+    font-size: 25px;
+
+}
+
+.textoWiki {
+    font-size: 18px;
+    color: #212121;
+    margin-top: 0%;
+    margin-left: 3.1%;
+    width: 95%;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.linhaSubTituloWiki {
+    width: 95%;
+    margin-left: 3%;
+    margin-bottom: 0.8%;
+    height: 20%;
+    background-color: black;
+    color: black;
+    font-size: 20px;
+    border: solid 1px;
+}
+
+.listaDeCuriosidade{
+    color: #212121;
+    font-size: 18px;
+    font-weight: 600;
+    list-style-type: disc;
+    margin-bottom: 0.3%;
+    text-align: justify;
+    width: 92.5%;
+}
+
+.localDoPersonagens{
+    
+    
+    height: 20%;
+    background-color: #734CFF;
+    z-index: 1;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+
+.tituloDaLista{
+    margin-left: 19%;
+    margin-bottom: 0.4%;
+    color: #571660;
+}
+
+.listaEImagem{
+    display: flex;
+    width: 100%;
+}
+
+#imageDaLista{
+    margin-left:5%;
+    width: 13%;
+    margin-right: 2%;
+    object-fit: cover;
+}
+
+.listaDosPersonagens{
+    width: 36%;
+    
+}
+
+#segundaLista{
+    width: 40%;
+}
+
+
+
+.nomeDoPersonagem{
+    list-style-type: disc;
+    color: #AEA0D0;
+    font-weight: 700;
+    margin-left: 10%;
+    font-size: 19px;
+}
+
+.osDaDireita{
+    width: 19%;
+}
+
+.ladoWiki {
+    background-color: #734CFF;
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.barraDePesquisa {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagemBarraDePesquisa {
+    width: 90%;
+    
+}
+
+#linkDaPesquisa{
+    position: absolute;
+    width: 10%;
+    margin-top: 1%;
+    height: 2.2%;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.pesquisa {
+   
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    padding-left: 8%;
+    background-color: black;
+    border: #1C1D1F solid 1px;
+    color: #FFD686;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.pesquisa::placeholder{
+    text-align: center;
+    color: #FFD686;
+}
+
+.imageDoladoNoTopo {
+    margin-top: 4%;
+    width: 90%;
+    margin-right: 3%;
+}
+
+.personagensPrincipaisDoLado {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tituloDoLado {
+    color: #571660;
+    font-size: 19px;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.locaisDosPersonagens {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+    margin-top: 6%;
+    font-weight: 600;
+}
+
+#localDoPersonagemFinn {
+    color: #ffffff;
+    background-color: #0E6CBA;
+}
+
+#localDoPersonagemJake {
+    color: #FFB826;
+    background-color: black;
+}
+
+#localDoPersonagemJujuba {
+    color: #F4B1CE;
+    background-color: #82428C;
+}
+
+.imageDosPersonagensDoLado {
+    width: 100%;
+}
+
+#mordomoMenta{
+    width: 90%;
+ 
+}
+
+@media (max-width: 1488px){
+    .nomeDoPersonagem{
+        font-size: 17px;
+    }
+    .localDoPersonagens{
+        padding-bottom: 3%;
+    }
+}
+
+@media (max-width: 1160px){
+
+    .tituloDaPagina{
+        font-size: 36px;
+        margin-bottom: 2%;
+    }
+
+    .imageComAsInformacoes, .nomeDoIten{
+        width: 50%;
+        padding-left: 0.4%;
+        padding-right: 0.4%;
+    }
+    .subTituloWiki{
+        font-size: 22px;
+    }
+    .textoWiki{
+        font-size: 16px;
+    }
+
+    .listaDeCuriosidade{
+        font-size: 16px;
+    }
+
+    
+
+    .tituloDaLista{
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 770px) {
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .barraEspada {
+        display: none;
+    }
+
+    #lugarDaPagina {
+        margin-top: 0.5%;
+        display: flex;
+        width: 98%;
+        align-items: center;
+    }
+
+    #espadaDeLado {
+        transform: rotate(90deg);
+        width: 8%;
+        position: absolute;
+        right: 13%;
+        z-index: -1;
+    }
+
+    #primeiraLista,
+    #segundaLista2,
+    #terceiraLista {
+        width: 26.5%;
+        position: absolute;
+        border: solid;
+    }
+
+    #primeiraLista{
+        
+        left: 1%;
+        font-size: 18px;
+
+    }
+
+    #segundaLista2{
+       
+        left: 27.8%;
+        z-index: 2;
+       
+    }
+
+    #terceiraLista{
+        
+        left: 54.69%;
+        z-index: 2;
+    }
+    .paginasMenores {
+        width: 27%;
+        border: solid;
+        border-left: 0;
+        
+        text-align: center;
+        background-color: #734CFF;
+    }
+
+    
+    .paginasMenores:hover{
+        background-color: #734CFF;
+    }
+    #idDaPag{
+        border-left: solid;
+    }
+
+    .listasPaginasMenoresTitulo{
+        font-size: 19px;
+        padding: 5% 0;
+        margin-left: 0;
+    }
+    
+    .listasPaginasMenoresTitulo:hover{
+        cursor: url(/src/img/espada\ sem\ logoc.png), pointer;
+        background-color: #734CFF;
+    }
+
+    .listasPaginasMenores {
+        display: none;
+        margin: 0;
+        background-color: #82428C;
+        padding: 1% 0;
+        padding-left: 2%;
+        border-top: solid;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .principalWiki {
+        width: 98%;
+        margin: 1%;
+    }
+
+    .partePrincipalWiki {
+        width: 88%;
+
+    }
+
+    #logoHoraDeAventura {
+        margin-left: 32%;
+        margin-top: 3%;
+    }
+
+    .tituloDaPagina {
+        font-size: 29px;
+        margin-left: 2%;
+    }
+
+    .subTituloWiki {
+        font-size: 21px;
+        margin-left: 2%;
+    }
+
+    .linhaSubTituloWiki {
+        margin-left: 2%;
+    }
+
+    .textoWiki {
+        font-size: 15px;
+        margin-left: 2.2%;
+    }
+
+    .listaDeCuriosidade {
+        font-size: 15px;
+    }
+
+    .imageComAsInformacoes,
+    .nomeDoIten {
+        width: 80%;
+    }
+
+    .nomeDoIten {
+        font-size: 21px;
+    }
+
+    #linkDaPesquisa {
+        width: 14%;
+        height: 1.5%;
+    }
+
+    .pesquisa {
+        padding: 0 8%;
+    }
+
+    .pesquisa::placeholder {
+        width: 100%;
+        text-align: center;
+    }
+
+    .locaisDosPersonagens p {
+        font-size: 14px;
+    }
+    .tituloDoLado{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px){
+    .imageComAsInformacoes,
+    .nomeDoIten {
+        width: 90%;
+    }
+    .tituloDoLado{
+        font-size: 12px;
+    }
+
+    .tituloDaLista{
+        font-size: 22px;
+    }
+
+    #imageDaLista{
+        width: 20%;
+    }
+
+    .listaDosPersonagens{
+        width: 35%;
+    }
+
+    .oQueOPersonagemE{
+        font-size: 18px;
+    }
+
+    .nomeDoPersonagem{
+        font-size: 15px;
+    }
+}
+@media(max-width: 543px){
+    .listasPaginasMenoresTitulo{
+        font-size: 17px; 
+    }
+
+    .listasPaginasMenores {
+        
+        font-size: 16px;
+       
+    }
+
+    .tituloDaPagina {
+        font-size: 27px;
+        margin-left: 2%;
+    }
+
+    .subTituloWiki {
+        font-size: 19px;
+        margin-left: 2%;
+    }
+
+    .textoWiki {
+        font-size: 14px;
+        margin-left: 2.2%;
+    }
+
+    #listaDeTodasAsCuriosidade{
+        margin-left: 2%;
+        width: 99%;
+    }
+
+    .listaDeCuriosidade {
+        font-size: 14px;
+        width: 91%;
+    }
+
+}
+
+@media (max-width: 500px){
+    #lugarDaPagina{
+        margin-bottom: 1%;
+    }
+    
+
+    .paginasMenores{
+        width: 42%;
+    }
+
+    #idDaPag{
+        width: 39%;
+    }
+
+    #paginasOutrasLi{
+        display: none;
+    }
+
+    #primeiraLista, #segundaLista2{
+        width: 38.4%;
+        z-index: 2;
+    }
+
+    #segundaLista2{
+        width: 41.2%;
+        left: 39.87%;
+
+    }
+
+    .partePrincipalWiki{
+        width: 98%;
+    }
+
+    .osDaDireita{
+        width: 0%;
+        display: none;
+    }
+
+    tr{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 406px){
+    .imageComAsInformacoes,
+    .nomeDoIten {
+        width: 94%;
+    }
+    tr {
+        font-size: 11px;
+    }
+}
+
+
+
+@media (max-height: 910px) {
+
+
+    
+    
+    li {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-height: 850px) {
+
+
+    li {
+        font-size: 17.5px;
+    }
+
+
+
+
+}
+
+@media (max-height: 750px) {
+
+
+
+    li {
+        font-size: 16px;
+    }
+
+
+}
+
+@media (max-height: 680px) {
+    #logoEWiki {
+        width: 90%;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-height: 600px) {
+    #logoEWiki {
+        width: 88%;
+    }
+
+    li {
+        font-size: 13.5px;
+    }
+}
+
+@media (max-height: 540px) {
+    #logoEWiki {
+        width: 87%;
+    }
+
+    li {
+        font-size: 12px;
+    }
+}
